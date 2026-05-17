@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studium — Devotion to learning</title>
+  <meta name="description" content="A global network connecting students with masters of craft and stewards of land. Student · Master · Steward.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #1c1916;
+      --stone: #4a443c;
+      --muted: #6b6358;
+      --parchment: #f6f1e8;
+      --cream: #ebe4d6;
+      --forest: #2d4a3e;
+      --forest-light: #3d6654;
+      --clay: #8b6914;
+      --accent: #c4a574;
+      --line: rgba(28, 25, 22, 0.12);
+      --max: 42rem;
+      --wide: 56rem;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html {
+      font-size: 18px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Source Sans 3", system-ui, sans-serif;
+      font-weight: 300;
+      line-height: 1.65;
+      color: var(--stone);
+      background: var(--parchment);
+    }
+
+    h1, h2, h3 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-weight: 600;
+      color: var(--ink);
+      line-height: 1.2;
+    }
+
+    a {
+      color: var(--forest);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    a:hover { color: var(--forest-light); }
+
+    .wrap {
+      max-width: var(--wide);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .narrow { max-width: var(--max); }
+
+    /* Header */
+    header {
+      padding: 2.5rem 0 1rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .wordmark {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: clamp(2.5rem, 8vw, 3.75rem);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--ink);
+      margin: 0;
+    }
+
+    .tagline {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    /* Hero */
+    .hero {
+      padding: 4rem 0 3rem;
+      text-align: center;
+    }
+
+    .hero-lead {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: clamp(1.35rem, 3.5vw, 1.75rem);
+      font-style: italic;
+      color: var(--ink);
+      margin: 0 auto 2rem;
+      max-width: 28rem;
+    }
+
+    .hero-statement {
+      font-size: 1.05rem;
+      max-width: 32rem;
+      margin: 0 auto;
+    }
+
+    .hero-statement strong {
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    /* Triangle */
+    .triangle-section {
+      padding: 3rem 0;
+      background: linear-gradient(180deg, var(--cream) 0%, var(--parchment) 100%);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .triangle-section h2 {
+      text-align: center;
+      font-size: 1.5rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      font-family: "Source Sans 3", sans-serif;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 2.5rem;
+    }
+
+    .triangle-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .triangle-svg {
+      width: min(320px, 90vw);
+      height: auto;
+    }
+
+    .triangle-svg text {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 15px;
+      font-weight: 600;
+      fill: var(--ink);
+    }
+
+    .triangle-svg .role-sub {
+      font-family: "Source Sans 3", sans-serif;
+      font-size: 10px;
+      font-weight: 400;
+      fill: var(--muted);
+    }
+
+    .roles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      width: 100%;
+      max-width: var(--wide);
+    }
+
+    .role-card {
+      padding: 1.25rem 1.5rem;
+      background: var(--parchment);
+      border: 1px solid var(--line);
+      border-radius: 2px;
+    }
+
+    .role-card h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.35rem;
+    }
+
+    .role-card p {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    /* Manifesto */
+    .manifesto {
+      padding: 4rem 0;
+    }
+
+    .manifesto h2 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      margin-bottom: 2rem;
+    }
+
+    .manifesto p {
+      margin: 0 0 1.25rem;
+    }
+
+    .manifesto .pull {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.4rem;
+      font-style: italic;
+      color: var(--ink);
+      border-left: 3px solid var(--accent);
+      padding-left: 1.25rem;
+      margin: 2rem 0;
+    }
+
+    .beliefs {
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0;
+    }
+
+    .beliefs li {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .beliefs li:last-child { border-bottom: none; }
+
+    .closing {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.25rem;
+      color: var(--ink);
+      margin-top: 2.5rem;
+    }
+
+    /* Pilot */
+    .pilot {
+      padding: 3rem 0 4rem;
+      background: var(--forest);
+      color: var(--cream);
+    }
+
+    .pilot h2 {
+      color: var(--parchment);
+      font-size: 1.75rem;
+    }
+
+    .pilot p { color: rgba(246, 241, 232, 0.85); }
+
+    .pilot-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    .stat {
+      flex: 1;
+      min-width: 120px;
+    }
+
+    .stat-num {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: var(--accent);
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 0.35rem;
+      opacity: 0.8;
+    }
+
+    .pilot a {
+      color: var(--accent);
+    }
+
+    /* Docs nav */
+    .docs-nav {
+      padding: 3rem 0 4rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .docs-nav h2 {
+      font-size: 1.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-family: "Source Sans 3", sans-serif;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .doc-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .doc-list a {
+      display: block;
+      padding: 0.85rem 1rem;
+      background: var(--cream);
+      border: 1px solid var(--line);
+      border-radius: 2px;
+      color: var(--ink);
+      text-decoration: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+
+    .doc-list a:hover {
+      border-color: var(--accent);
+      background: var(--parchment);
+    }
+
+    .doc-list .desc {
+      display: block;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.2rem;
+    }
+
+    footer {
+      padding: 2rem 0;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+    }
+
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <p class="tagline">Student · Master · Steward</p>
+    <h1 class="wordmark">Studium</h1>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <p class="hero-lead">An atlas of living knowledge.</p>
+      <p class="hero-statement">
+        A global network where students find the world’s living <strong>masters of craft</strong>
+        and <strong>stewards of land</strong>—and where knowledge rooted in place continues to live.
+      </p>
+    </section>
+
+    <section class="triangle-section" id="triangle">
+      <div class="wrap">
+        <h2>The cycle of transmission</h2>
+        <div class="triangle-wrap">
+          <svg class="triangle-svg" viewBox="0 0 280 260" aria-labelledby="triangle-title">
+            <title id="triangle-title">Student, Master, and Steward triangle</title>
+            <polygon points="140,24 248,220 32,220" fill="none" stroke="var(--accent)" stroke-width="1.5" opacity="0.6"/>
+            <line x1="140" y1="24" x2="32" y2="220" stroke="var(--line)" stroke-width="1"/>
+            <line x1="140" y1="24" x2="248" y2="220" stroke="var(--line)" stroke-width="1"/>
+            <line x1="32" y1="220" x2="248" y2="220" stroke="var(--line)" stroke-width="1"/>
+            <text x="140" y="52" text-anchor="middle">MASTER</text>
+            <text x="140" y="68" text-anchor="middle" class="role-sub">holder of knowledge</text>
+            <text x="52" y="238" text-anchor="middle">STUDENT</text>
+            <text x="52" y="252" text-anchor="middle" class="role-sub">seeker</text>
+            <text x="228" y="238" text-anchor="middle">STEWARD</text>
+            <text x="228" y="252" text-anchor="middle" class="role-sub">guardian of place</text>
+          </svg>
+          <div class="roles">
+            <article class="role-card">
+              <h3>Student</h3>
+              <p>Approaches with curiosity. Seeks learning through presence, humility, and hands-on practice.</p>
+            </article>
+            <article class="role-card">
+              <h3>Master</h3>
+              <p>Shares knowledge through practice. Holds craft traditions passed down across generations.</p>
+            </article>
+            <article class="role-card">
+              <h3>Steward</h3>
+              <p>Protects the land and context that make knowledge possible. Guards place and lineage.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto wrap narrow">
+      <h2>Manifesto</h2>
+      <p>We believe that knowledge rooted in place is one of humanity’s most valuable inheritances.</p>
+      <p>Across the world, masters of craft and stewards of land hold knowledge that cannot be downloaded, automated, or mass-produced. It lives in the hands of a stonemason shaping granite, in the rhythm of a loom, in the patient tending of soil, forests, and water.</p>
+      <p class="pull">Studium exists to rebuild that bridge.</p>
+      <p>Studium is not a marketplace for tourism or entertainment. It is a place for <strong>devotion to learning</strong>.</p>
+      <p>Through immersive apprenticeships, seasonal residencies, and meaningful encounters, students step into workshops, fields, forests, and villages where knowledge still lives. Each experience is rooted in place. Each relationship honors lineage.</p>
+      <ul class="beliefs">
+        <li>We believe mastery deserves recognition.</li>
+        <li>We believe traditions deserve protection.</li>
+        <li>We believe learning should transform those who seek it.</li>
+      </ul>
+      <p class="closing">A modern guild for a changing world. Welcome to Studium.</p>
+      <p><a href="03-manifesto.md">Read the full manifesto →</a></p>
+    </section>
+
+    <section class="pilot">
+      <div class="wrap narrow">
+        <h2>First pilot — Northern Portugal</h2>
+        <p>Year one is proof, not scale. We are building the first network of living masters in Northern Portugal—Douro, Minho, Serra da Estrela, Trás-os-Montes.</p>
+        <div class="pilot-stats">
+          <div class="stat">
+            <div class="stat-num">10</div>
+            <div class="stat-label">Founding masters</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">50</div>
+            <div class="stat-label">Student apprenticeships</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">1</div>
+            <div class="stat-label">Region, deep roots</div>
+          </div>
+        </div>
+        <p>The community matters more than the software. <a href="04-pilot-plan.md">Explore the pilot plan →</a></p>
+      </div>
+    </section>
+
+    <section class="docs-nav wrap narrow">
+      <h2>Documentation</h2>
+      <ul class="doc-list">
+        <li>
+          <a href="00-overview.md">
+            Project overview
+            <span class="desc">Start here — synthesis and reading order</span>
+          </a>
+        </li>
+        <li>
+          <a href="02-triangle-philosophy.md">
+            Triangle philosophy
+            <span class="desc">Roles, life cycle, symbol, and brand architecture</span>
+          </a>
+        </li>
+        <li>
+          <a href="01-marketplace-and-business.md">
+            Marketplace &amp; business
+            <span class="desc">Model, economics, and launch strategy</span>
+          </a>
+        </li>
+        <li>
+          <a href="04-pilot-plan.md">
+            Pilot plan
+            <span class="desc">Year-one goals, MVP scope, open questions</span>
+          </a>
+        </li>
+        <li>
+          <a href="ORCHESTRATOR.md">
+            Orchestrator handoff
+            <span class="desc">For remote agents — priorities and next tasks</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>Studium · <a href="https://github.com/brauliosotomayor/studium">github.com/brauliosotomayor/studium</a></p>
+  </footer>
+</body>
+</html>

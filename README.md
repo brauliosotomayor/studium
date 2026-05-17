@@ -8,6 +8,7 @@ A global network where students find living masters of craft and land—and wher
 
 | Path | Description |
 |------|-------------|
+| [`docs/index.html`](docs/index.html) | Front page (manifesto, triangle, pilot teaser) |
 | [`docs/00-overview.md`](docs/00-overview.md) | Start here — project summary and doc index |
 | [`docs/01-marketplace-and-business.md`](docs/01-marketplace-and-business.md) | Business model and launch strategy |
 | [`docs/02-triangle-philosophy.md`](docs/02-triangle-philosophy.md) | Philosophical architecture |

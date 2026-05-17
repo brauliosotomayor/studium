@@ -6,6 +6,7 @@ Studium is a platform concept for connecting **students** with **masters** of cr
 
 | Doc | Purpose |
 |-----|---------|
+| [index.html](./index.html) | Front page — manifesto, triangle, pilot teaser, doc links |
 | [01-marketplace-and-business.md](./01-marketplace-and-business.md) | Business model, macro trends, unit economics, defensibility, launch strategy (Southern Europe crafts first) |
 | [02-triangle-philosophy.md](./02-triangle-philosophy.md) | Student · Master · Steward roles, life cycle, symbol, branding, map integration |
 | [03-manifesto.md](./03-manifesto.md) | Standalone brand manifesto and stakeholder context |
