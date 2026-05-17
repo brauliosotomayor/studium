@@ -1,0 +1,141 @@
+# Orchestrator Handoff — Studium
+
+**Repo:** `brauliosotomayor/studium`  
+**Branch:** `main`  
+**Last updated:** 2026-05-17  
+**Audience:** Remote orchestrator / agent coordinator assigning work to subagents
+
+---
+
+## Mission (one sentence)
+
+Build the infrastructure and first real-world pilot for **Studium**—a platform that connects students with masters of craft and stewards of land through immersive apprenticeships, starting in Northern Portugal.
+
+---
+
+## Current state
+
+| Area | Status |
+|------|--------|
+| Vision & strategy | ✅ Documented in `docs/` (split from `src/chat.md`) |
+| Brand / manifesto | ✅ `docs/03-manifesto.md` |
+| Product philosophy | ✅ `docs/02-triangle-philosophy.md` |
+| Business case | ✅ `docs/01-marketplace-and-business.md` |
+| Pilot spec | ✅ `docs/04-pilot-plan.md` (includes open questions) |
+| Code / app | ❌ Not started |
+| Founding masters | ❌ Not recruited |
+| Design system / UI | ❌ Not started |
+| Legal / payments / liability | ❌ Not specified |
+
+**Canonical source of truth for product intent:** `docs/00-overview.md` → linked docs. Do not re-derive strategy from `src/chat.md` unless reconciling gaps.
+
+---
+
+## Non-negotiables (from founder conversation)
+
+1. **Not tourism** — devotion to learning; reject experiences-marketplace positioning.
+2. **Place-rooted** — every experience tied to geography, lineage, and steward context.
+3. **Triangle is core** — Student · Master · Steward shapes profiles, map, and narrative.
+4. **Start narrow** — crafts in Southern Europe before full ecology/land expansion.
+5. **Pilot before scale** — year one proves masters participate, students commit deeply, and stories spread organically.
+6. **Minimal v1 app** — map, master profiles, listings, applications, secure booking only.
+
+---
+
+## Priority queue for next work
+
+Assign subagents in parallel where tasks are independent. Respect dependencies noted.
+
+### P0 — Decisions (human or orchestrator-led)
+
+| ID | Task | Owner | Blocks |
+|----|------|-------|--------|
+| D1 | Choose **founding master** (first point on map) | Founder | Pilot narrative, outreach |
+| D2 | Confirm **pilot sub-region** (one vs. four in Northern Portugal) | Founder | Logistics, marketing |
+| D3 | Resolve **niche focus** for launch: crafts-only vs. crafts + land equally | Founder | Master recruitment list |
+
+### P1 — Parallel workstreams (no code required yet)
+
+| ID | Task | Suggested output | Depends on |
+|----|------|------------------|------------|
+| W1 | **Founding circle roster** — research/nominate 10 masters (craft + land mix per pilot doc) | `docs/05-founding-masters.md` | D1, D2 |
+| W2 | **Apprenticeship catalog** — 3–5 experience templates with pricing bands | `docs/06-experience-catalog.md` | W1 partial |
+| W3 | **Student acquisition plan** — architecture schools, craft schools, slow-travel channels | `docs/07-student-acquisition.md` | — |
+| W4 | **Documentation playbook** — photo/film/interview protocol for archive | `docs/08-documentation-playbook.md` | — |
+| W5 | **Institutional outreach** — shortlist 3 partners (schools, UNESCO-adjacent, ecology) | `docs/09-institutional-partners.md` | — |
+
+### P2 — Product & technical (after P0 decisions)
+
+| ID | Task | Suggested output | Depends on |
+|----|------|------------------|------------|
+| T1 | **Information architecture** — pages, flows, data model for v1 | `docs/10-ia-and-data-model.md` | D3, W2 |
+| T2 | **Wireframes** — map, profile, listing, apply, book | `design/` or Figma link in doc | T1 |
+| T3 | **Tech stack proposal** — map provider, auth, payments, hosting | `docs/11-tech-stack.md` | T1 |
+| T4 | **MVP implementation** — scaffold app per pilot scope | `app/` | T1–T3 |
+
+### P3 — Business operations
+
+| ID | Task | Suggested output |
+|----|------|------------------|
+| B1 | Booking/payments/cancellation policy draft | `docs/12-operations-policy.md` |
+| B2 | Master agreement / revenue share template | `docs/13-master-agreement-draft.md` |
+| B3 | Content license for student/master documentation | `docs/14-content-license.md` |
+
+---
+
+## Suggested subagent prompts (copy-paste)
+
+**W1 — Founding masters**
+> Read `docs/04-pilot-plan.md` and `docs/01-marketplace-and-business.md`. Draft `docs/05-founding-masters.md`: 10 candidate master profiles (fictional or template placeholders) across Northern Portugal sub-regions, with craft/land type, sample workshop title, and why they fit the founding circle. Flag which slot should be the founding master per open questions.
+
+**W2 — Experience catalog**
+> Read `docs/04-pilot-plan.md`. Create `docs/06-experience-catalog.md` with 3–5 apprenticeship templates (duration, group size, price range €, learning outcomes). Align with pilot metrics (3–6 students per run, ~50 completions/year).
+
+**T1 — IA and data model**
+> Read `docs/02-triangle-philosophy.md`, `docs/04-pilot-plan.md`, and `docs/00-overview.md`. Produce `docs/10-ia-and-data-model.md`: entities (Student, Master, Steward, Place, Experience, Application, Booking), core user flows, and v1 feature exclusions.
+
+---
+
+## Success metrics (year one — do not change without founder approval)
+
+- 10 participating masters  
+- ~50 students completing apprenticeships  
+- Meaningful documented stories (photos, film, interviews)  
+- 1–2 institutional partnerships emerging  
+
+---
+
+## Risks and blockers
+
+| Risk | Mitigation |
+|------|------------|
+| Scope creep (social, feed, AI features) | Enforce v1 exclusions in `docs/04-pilot-plan.md` |
+| Tourism positioning | Manifesto and copy review on all outward-facing material |
+| Master cold-start | Prioritize D1 founding master + personal network outreach |
+| Auth/push to GitHub from local agent | Human runs `gh auth login` once; then `git push origin main` |
+
+---
+
+## Repo conventions for agents
+
+- New strategy docs: `docs/NN-slug.md` (increment number)  
+- Do not edit `src/chat.md` (archive)  
+- Prefer updating `docs/00-overview.md` doc map when adding files  
+- No commits containing secrets (`.env`, tokens)  
+- Commits: imperative mood, focus on *why*  
+
+---
+
+## Immediate next instruction (for orchestrator)
+
+1. **Confirm** founder decisions **D1–D3** (or assign a subagent to draft options doc for founder review).  
+2. **Launch in parallel:** W1, W2, W3, W4, W5 (five subagents, read-only on `src/chat.md`).  
+3. **Gate** T1–T4 until D3 and W2 drafts exist.  
+4. **Report back** with links to new docs and updated open-questions list in `docs/04-pilot-plan.md`.
+
+---
+
+## Contact / ownership
+
+- **Founder:** Braulio Sotomayor (`brauliosotomayor`)  
+- **GitHub:** https://github.com/brauliosotomayor/studium  

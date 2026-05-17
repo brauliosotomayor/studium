@@ -1,0 +1,212 @@
+# Marketplace and Business Model
+
+## Executive Summary
+
+- A **Student + Steward + Master** platform combines a two-sided marketplace, cultural archive, and ecological intelligence layer—positioned in the expertise/experiences category that historically scales well (Airbnb, Etsy, Upwork).
+- Macro tailwinds: the **$1T+ experience economy**, UNESCO-scale cultural preservation, and **slow travel** (longer stays, rural immersion) align with village-based craft and land knowledge.
+- Unit economics at scale: ~**$150** average experience, **20%** platform fee → **$30** per booking; **50k bookings/month** implies ~**$18M** annual revenue and **$90M–$180M** valuation at 5–10× revenue multiples.
+- Defensibility comes from **supply lock-in** and network effects once the platform is the canonical place for living masters of craft.
+- Recommended launch: **one vertical first**—traditional crafts marketplace in **Southern Europe** (Portugal, Italy, Spain, France)—before expanding to land stewardship and the full ecosystem.
+
+## Core Model That Scales
+
+The business follows the standard marketplace formula:
+
+**Supply (providers) + Demand (users) + Platform fee**
+
+### Supply: Masters of Craft, Land, and Knowledge
+
+Examples of supply-side profiles:
+
+- Stonemasons
+- Ceramicists
+- Herbalists
+- Boat builders
+- Vineyard farmers
+- Indigenous seed keepers
+- Forestry experts
+- Instrument makers
+
+### Demand: Learners and Cultural Travelers
+
+Examples of demand-side segments:
+
+- Curious travelers
+- Students
+- Architecture and design enthusiasts
+- Sustainability practitioners
+- Hobbyists
+- Cultural travelers
+
+Positioning is **deeper than tourism**: learn, don’t just visit.
+
+## Why the Market Is Larger Than It Appears
+
+Three macro trends support the category.
+
+### 1. The Experience Economy
+
+People increasingly prefer experiences over possessions. The global experience economy is estimated to exceed **$1 trillion annually**. Platforms like Airbnb report strong growth in Experiences because travelers want local immersion; this model goes further—structured learning and apprenticeship, not sightseeing alone.
+
+### 2. Cultural Preservation
+
+Organizations worldwide work to preserve traditional knowledge. **UNESCO** maintains a list of Intangible Cultural Heritage, including:
+
+- Traditional boatbuilding
+- Weaving
+- Musical traditions
+- Agricultural practices
+
+Many traditions lack apprentices. The platform can function as the **pipeline for apprentices** connecting masters to the next generation.
+
+### 3. The Slow Travel Movement
+
+Travel is shifting toward:
+
+- Longer stays
+- Deeper cultural immersion
+- Rural destinations
+
+This aligns with village economies and multi-day or multi-week engagements (workshops, immersions, apprenticeships).
+
+## How the Marketplace Works
+
+### Step 1: Onboard Masters
+
+The platform recruits artisans, farmers, builders, and craftspeople. Each master gets a profile.
+
+**Example profile:**
+
+| Field | Value |
+|-------|-------|
+| Master | Carlo Bellini |
+| Craft | Traditional stone masonry |
+| Location | Carrara, Italy |
+| Offering | 1-day workshop |
+| Price | €220 |
+
+### Step 2: Students Discover
+
+Users browse by craft, location, and time commitment.
+
+**Offering formats:**
+
+- 3-hour introduction
+- 3-day immersion
+- 1-month apprenticeship
+
+### Step 3: Platform Fee
+
+Typical marketplace take rate: **15–25%**.
+
+**Example:**
+
+- Workshop price: €200
+- Platform fee (at 20%): €40
+
+## Economics
+
+Conservative assumptions:
+
+| Assumption | Value |
+|------------|-------|
+| Average experience price | $150 |
+| Platform fee | 20% |
+| Revenue per booking | $30 |
+
+### Early Scale
+
+| Volume | Monthly revenue | Annual revenue |
+|--------|-----------------|----------------|
+| 5,000 experiences/month | $150,000 | $1.8M |
+
+### Modest Scale
+
+| Volume | Annual revenue |
+|--------|----------------|
+| 50,000 experiences/month | $18M |
+
+Marketplace valuations often range **5×–10× revenue**, implying **$90M–$180M** valuation at the modest scale above—and that is still early-stage relative to category leaders.
+
+## Defensibility
+
+Large marketplaces win through **supply lock-in**. Once the platform is known for masters of craft, network effects compound:
+
+- **Masters** join because students are there, reputation grows, and bookings increase.
+- **Students** come because that is where the masters are.
+
+This flywheel mirrors Etsy and Airbnb: density on the supply side defines the category.
+
+## Platform Ecosystem: Learn, Discover, Steward
+
+Three product pillars fit one platform:
+
+1. **Learn** — Marketplace for apprenticeships and workshops
+2. **Discover** — Village discovery and local context
+3. **Steward** — Ecological and land knowledge
+
+### Example User Journey
+
+A traveler opens the app and discovers **Village: Paços de Gaiolo**, seeing:
+
+- Local stonemason workshop
+- Native reforestation project
+- Vineyard harvest
+
+They can learn a craft, volunteer, and plant native species—**deep cultural travel**, not a single transactional booking.
+
+## Brand Direction
+
+Strong platforms use short, memorable names. Candidate directions include:
+
+- Guild
+- Roots
+- Steward
+- Atelier
+- Craftway
+- Kinfolk
+- Terra
+- Praxis
+
+(Final naming to be refined separately.)
+
+## Pilot Markets and Founder Alignment
+
+Relevant founder interests and geography for an initial pilot:
+
+- Architecture and cultural heritage
+- Land stewardship and rural communities
+- Mentorship models
+
+**Pilot geography:** Portugal, Europe, and the U.S. as complementary launch corridors; **Southern Europe** as the recommended first vertical (see below).
+
+## Startup Strategy: Start Narrow
+
+Launch with **one vertical**, not the full ecosystem at once.
+
+**Recommended first vertical:** Traditional crafts marketplace in **Southern Europe**
+
+| Country | Rationale |
+|---------|-----------|
+| Portugal | Strong craft and rural tourism |
+| Italy | Deep artisan traditions (e.g. Carrara stonework) |
+| Spain | Tourism + regional crafts |
+| France | Heritage crafts and slow-travel demand |
+
+These regions combine **aging artisans**, **tourism demand**, and **strong craft traditions**—supply urgency plus paying demand.
+
+## Long-Term Vision
+
+Beyond transactions, the platform can become a **global registry of living masters**—a digital archive of crafts, ecological knowledge, and land stewardship that is economically viable and culturally meaningful.
+
+## Strategic Focus (Launch Decision)
+
+The most successful version starts **narrow** before expanding. The initial positioning choice:
+
+| Option | Focus |
+|--------|--------|
+| **A** | Traditional crafts and artisans |
+| **B** | Land stewardship and ecology |
+| **C** | Both equally (culture + land) |
+
+**Recommendation:** Option **A** or a crafts-first wedge with stewardship as phase two; the right starting niche determines whether the idea becomes a category-defining marketplace or another undifferentiated app.
