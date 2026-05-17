@@ -2,8 +2,25 @@
 
 **Repo:** `brauliosotomayor/studium`  
 **Branch:** `main`  
-**Last updated:** 2026-05-17  
+**Last updated:** 2026-05-17 (Phase II complete)  
 **Audience:** Remote orchestrator / agent coordinator assigning work to subagents
+
+---
+
+## Phase II complete (atlas infrastructure)
+
+| Deliverable | Path | Status |
+|-------------|------|--------|
+| P0 Corridor registry | `docs/05-corridor-registry.md` | ✅ |
+| P1 Knowledge archetypes | `docs/06-knowledge-archetypes.md` | ✅ |
+| P2 Founding 13 | `docs/07-founding-13.md` | ✅ |
+| P3 Atlas CSV | `data/studium_atlas_master.csv` (266 nodes) | ✅ |
+| P4 Stewardship | `docs/08-stewardship-framework.md` | ✅ |
+| P5 Evaluation | `docs/09-master-evaluation-framework.md` | ✅ |
+| P6 Map UX | `docs/10-atlas-experience.md` | ✅ |
+| P7 Site | `docs/index.html` + `docs/assets/` | ✅ |
+
+**Next phase:** P0 decisions (D1–D3) → W1–W5 docs OR T1 IA/data model. **No app code yet.**
 
 ---
 
@@ -18,6 +35,7 @@ Build the infrastructure and first real-world pilot for **Studium**—a platform
 | Area | Status |
 |------|--------|
 | Vision & strategy | ✅ Documented in `docs/` (split from `src/chat.md`) |
+| Atlas taxonomy & CSV | ✅ Phase II (`05–10`, `studium_atlas_master.csv`) |
 | Brand / manifesto | ✅ `docs/03-manifesto.md` |
 | Product philosophy | ✅ `docs/02-triangle-philosophy.md` |
 | Business case | ✅ `docs/01-marketplace-and-business.md` |
