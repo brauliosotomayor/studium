@@ -17,6 +17,7 @@ A global network where students find living masters of craft and land—and wher
 | [`docs/04-pilot-plan.md`](docs/04-pilot-plan.md) | First-year pilot (Northern Portugal) |
 | [`docs/ORCHESTRATOR.md`](docs/ORCHESTRATOR.md) | Remote orchestrator handoff |
 | [`src/chat.md`](src/chat.md) | Original conversation export |
+| [`data/`](data/) | Source dataset (masters atlas, drafts, visuals) |
 
 ## Publishing the site (branch deploy — not Actions)
 
