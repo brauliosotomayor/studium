@@ -11,6 +11,8 @@ A global network where students find living masters of craft and land—and wher
 | [`docs/index.html`](docs/index.html) | Front page (manifesto, triangle, pilot teaser) |
 | **Live site** | https://brauliosotomayor.github.io/studium/ |
 | [`docs/00-overview.md`](docs/00-overview.md) | Start here — project summary and doc index |
+| [`data/studium_atlas_master.csv`](data/studium_atlas_master.csv) | Normalized atlas (266 nodes) |
+| [`docs/05-corridor-registry.md`](docs/05-corridor-registry.md) | Phase II — corridor registry |
 | [`docs/01-marketplace-and-business.md`](docs/01-marketplace-and-business.md) | Business model and launch strategy |
 | [`docs/02-triangle-philosophy.md`](docs/02-triangle-philosophy.md) | Philosophical architecture |
 | [`docs/03-manifesto.md`](docs/03-manifesto.md) | Brand manifesto |

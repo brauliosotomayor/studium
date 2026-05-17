@@ -6,7 +6,14 @@ Studium is a platform concept for connecting **students** with **masters** of cr
 
 | Doc | Purpose |
 |-----|---------|
-| [index.html](./index.html) | Front page — manifesto, triangle, pilot teaser, doc links |
+| [index.html](./index.html) | Front page — manifesto, triangle, corridors, Founding 13, archetypes, atlas |
+| [05-corridor-registry.md](./05-corridor-registry.md) | **Phase II** — canonical corridor registry |
+| [06-knowledge-archetypes.md](./06-knowledge-archetypes.md) | Nine knowledge archetypes |
+| [07-founding-13.md](./07-founding-13.md) | Founding 13 constellation architecture |
+| [08-stewardship-framework.md](./08-stewardship-framework.md) | Stewardship & sensitivity ethics |
+| [09-master-evaluation-framework.md](./09-master-evaluation-framework.md) | Master candidate scoring |
+| [10-atlas-experience.md](./10-atlas-experience.md) | Map UX & discovery logic |
+| [data/studium_atlas_master.csv](../data/studium_atlas_master.csv) | Normalized atlas dataset (266 nodes) |
 | [01-marketplace-and-business.md](./01-marketplace-and-business.md) | Business model, macro trends, unit economics, defensibility, launch strategy (Southern Europe crafts first) |
 | [02-triangle-philosophy.md](./02-triangle-philosophy.md) | Student · Master · Steward roles, life cycle, symbol, branding, map integration |
 | [03-manifesto.md](./03-manifesto.md) | Standalone brand manifesto and stakeholder context |

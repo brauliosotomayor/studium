@@ -1,10 +1,16 @@
 # Studium source dataset
 
-Workspace files copied from the STUDIUM source folder:
+## Canonical data
 
 | File | Description |
 |------|-------------|
-| `Studium Global Atlas Data Set.xlsx` | Global masters atlas data |
+| **`studium_atlas_master.csv`** | **Normalized atlas** — 266 unique nodes, canonical columns (Phase II) |
+
+## Source files (archive)
+
+| File | Description |
+|------|-------------|
+| `Studium Global Atlas Data Set.xlsx` | Global masters atlas data (source) |
 | `STUDIUM MASTERS DRAFT.docx` | Masters draft |
 | `Aligning with Nature Thought Process.docx` | Thought process notes |
 | `Braulio Studium.png` | Visual assets |

@@ -327,6 +327,96 @@
     }
 
     footer a { color: var(--muted); }
+
+    .hero-visual {
+      margin: 2.5rem auto 0;
+      max-width: 28rem;
+      border: 1px solid var(--line);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .hero-visual img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .phase-band {
+      padding: 2.5rem 0;
+      text-align: center;
+      background: var(--cream);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .phase-sequence {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.5rem;
+      color: var(--ink);
+      letter-spacing: 0.15em;
+    }
+
+    .corridor-grid, .archetype-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .corridor-card, .archetype-card {
+      padding: 1.25rem;
+      background: var(--cream);
+      border: 1px solid var(--line);
+      border-radius: 2px;
+    }
+
+    .corridor-card h3, .archetype-card h3 {
+      margin: 0 0 0.35rem;
+      font-size: 1.15rem;
+    }
+
+    .corridor-card .meta {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+
+    .map-concept {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: center;
+      margin: 2rem 0;
+    }
+
+    @media (max-width: 700px) {
+      .map-concept { grid-template-columns: 1fr; }
+    }
+
+    .map-concept img {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 2px;
+    }
+
+    .founding-ring {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem 1rem;
+      margin: 1.5rem 0;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .founding-ring span {
+      padding: 0.35rem 0.75rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--parchment);
+    }
   </style>
 </head>
 <body>
@@ -342,6 +432,14 @@
         A global network where students find the world’s living <strong>masters of craft</strong>
         and <strong>stewards of land</strong>—and where knowledge rooted in place continues to live.
       </p>
+      <figure class="hero-visual">
+        <img src="assets/Braulio%20Studium.png" alt="Studium atlas visual — constellation of knowledge" width="560" height="400">
+      </figure>
+    </section>
+
+    <section class="phase-band wrap">
+      <p class="phase-sequence">3 → 5 → 13 → 50 → 200</p>
+      <p style="margin:0.75rem 0 0; font-size:0.95rem;">Founder signal · regional ring · planetary constellation · operational atlas · global network</p>
     </section>
 
     <section class="triangle-section" id="triangle">
@@ -395,29 +493,65 @@
       <p><a href="03-manifesto.md">Read the full manifesto →</a></p>
     </section>
 
-    <section class="pilot">
-      <div class="wrap narrow">
-        <h2>First pilot — Northern Portugal</h2>
-        <p>Year one is proof, not scale. We are building the first network of living masters in Northern Portugal—Douro, Minho, Serra da Estrela, Trás-os-Montes.</p>
-        <div class="pilot-stats">
-          <div class="stat">
-            <div class="stat-num">10</div>
-            <div class="stat-label">Founding masters</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">50</div>
-            <div class="stat-label">Student apprenticeships</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">1</div>
-            <div class="stat-label">Region, deep roots</div>
-          </div>
-        </div>
-        <p>The community matters more than the software. <a href="04-pilot-plan.md">Explore the pilot plan →</a></p>
+        <section class="wrap" id="corridors">
+      <h2 style="text-align:center; margin-top:3rem;">Knowledge corridors</h2>
+      <p class="narrow" style="text-align:center; margin:0 auto 1rem;">Geographies of transmission—not tourist destinations. <a href="05-corridor-registry.md">Full registry →</a></p>
+      <div class="corridor-grid">
+        <article class="corridor-card"><p class="meta">92 nodes</p><h3>North American Stewardship</h3><p>Indigenous stewardship and intergenerational craft.</p></article>
+        <article class="corridor-card"><p class="meta">19 nodes</p><h3>Andean Knowledge</h3><p>Terrace agriculture and highland ecology.</p></article>
+        <article class="corridor-card"><p class="meta">14 nodes</p><h3>Japanese Master Craft</h3><p>Shokunin devotion—lacquer, carpentry, satoyama.</p></article>
+        <article class="corridor-card"><p class="meta">15 nodes</p><h3>Italian Master Craft</h3><p>Stone, glass, textile, instrument.</p></article>
+        <article class="corridor-card"><p class="meta">10 nodes</p><h3>Iberian Craft &amp; Land</h3><p>Douro anchor—vineyards, cork, dry stone.</p></article>
+        <article class="corridor-card"><p class="meta">11 nodes</p><h3>Mesoamerican Craft</h3><p>Chinampa, Zapotec weave, indigenous agriculture.</p></article>
       </div>
     </section>
 
-    <section class="docs-nav wrap narrow">
+    <section class="wrap narrow" id="founding-13">
+      <h2 style="text-align:center;">The Founding 13</h2>
+      <p style="text-align:center;">13 clusters · ~65 founding nodes · <a href="07-founding-13.md">Architecture →</a></p>
+      <div class="founding-ring">
+        <span>Iberian</span><span>Italian</span><span>Japanese</span><span>Mesoamerican</span><span>Andean</span><span>North America</span><span>Moroccan</span><span>Caucasus</span><span>South Asian</span><span>Southeast Asian</span><span>West African</span><span>East Africa</span><span>Pacific</span>
+      </div>
+    </section>
+
+    <section class="wrap" id="archetypes">
+      <h2 style="text-align:center;">Knowledge archetypes</h2>
+      <p style="text-align:center;"><a href="06-knowledge-archetypes.md">Nine canonical types →</a></p>
+      <div class="archetype-grid">
+        <article class="archetype-card"><h3>Textile &amp; Fiber</h3></article>
+        <article class="archetype-card"><h3>Material Craft</h3></article>
+        <article class="archetype-card"><h3>Architecture</h3></article>
+        <article class="archetype-card"><h3>Land Stewardship</h3></article>
+        <article class="archetype-card"><h3>Food &amp; Fermentation</h3></article>
+        <article class="archetype-card"><h3>Maritime</h3></article>
+        <article class="archetype-card"><h3>Instrument</h3></article>
+        <article class="archetype-card"><h3>Navigation</h3></article>
+        <article class="archetype-card"><h3>Storytelling</h3></article>
+      </div>
+    </section>
+
+    <section class="wrap narrow" id="atlas">
+      <h2 style="text-align:center;">The living atlas</h2>
+      <div class="map-concept">
+        <div><p><strong>266 nodes</strong> catalogued. Constellation corridors—not tourism pins. <a href="10-atlas-experience.md">Discovery logic →</a></p></div>
+        <img src="assets/Braulio%20Studium%202.png" alt="Studium map concept" width="480" height="360">
+      </div>
+    </section>
+
+    <section class="pilot">
+      <div class="wrap narrow">
+        <h2>First pilot — Northern Portugal</h2>
+        <p>Proof before scale. Douro · Minho · Serra da Estrela · Trás-os-Montes.</p>
+        <div class="pilot-stats">
+          <div class="stat"><div class="stat-num">13</div><div class="stat-label">Clusters</div></div>
+          <div class="stat"><div class="stat-num">266</div><div class="stat-label">Atlas nodes</div></div>
+          <div class="stat"><div class="stat-num">1</div><div class="stat-label">Founding region</div></div>
+        </div>
+        <p><a href="04-pilot-plan.md">Pilot plan →</a></p>
+      </div>
+    </section>
+
+<section class="docs-nav wrap narrow">
       <h2>Documentation</h2>
       <ul class="doc-list">
         <li>
@@ -445,7 +579,7 @@
           </a>
         </li>
         <li>
-          <a href="ORCHESTRATOR.md">
+          <a href="05-corridor-registry.md">Corridor registry<span class="desc">Phase II</span></a></li><li><a href="06-knowledge-archetypes.md">Archetypes</a></li><li><a href="07-founding-13.md">Founding 13</a></li><li><a href="08-stewardship-framework.md">Stewardship</a></li><li><a href="09-master-evaluation-framework.md">Evaluation</a></li><li><a href="10-atlas-experience.md">Atlas UX</a></li><li><a href="ORCHESTRATOR.md">
             Orchestrator handoff
             <span class="desc">For remote agents — priorities and next tasks</span>
           </a>
