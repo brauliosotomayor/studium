@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <script>
+    (function () {
+      var p = location.pathname;
+      // GitHub Pages serves /docs as site root — strip mistaken /docs/ segment
+      if (p.indexOf('/docs/') !== -1) {
+        location.replace(p.replace('/docs/', '/') + location.search + location.hash);
+        return;
+      }
+      location.replace('/studium/');
+    })();
+  </script>
+  <meta http-equiv="refresh" content="0; url=https://brauliosotomayor.github.io/studium/">
+</head>
+<body>
+  <p><a href="/studium/">Go to Studium</a></p>
+</body>
+</html>
