@@ -1,16 +1,20 @@
-# Marketplace and Business Model
+# Business Hypothesis (Archival)
+
+**Status:** Early strategic hypothesis, superseded for public positioning by the pilot-stage framing in `00-overview.md`, `04-pilot-plan.md`, and `08-stewardship-framework.md`.
+
+This document should not be used as external copy. It records an earlier business-model exploration and must be validated through fieldwork, practitioner consent, and partner review before any economic claims are made publicly.
 
 ## Executive Summary
 
-- A **Student + Steward + Master** platform combines a two-sided marketplace, cultural archive, and ecological intelligence layer—positioned in the expertise/experiences category that historically scales well (Airbnb, Etsy, Upwork).
-- Macro tailwinds: the **$1T+ experience economy**, UNESCO-scale cultural preservation, and **slow travel** (longer stays, rural immersion) align with village-based craft and land knowledge.
-- Unit economics at scale: ~**$150** average experience, **20%** platform fee → **$30** per booking; **50k bookings/month** implies ~**$18M** annual revenue and **$90M–$180M** valuation at 5–10× revenue multiples.
-- Defensibility comes from **supply lock-in** and network effects once the platform is the canonical place for living masters of craft.
-- Recommended launch: **one vertical first**—traditional crafts marketplace in **Southern Europe** (Portugal, Italy, Spain, France)—before expanding to land stewardship and the full ecosystem.
+- The current public position is a **pilot stewardship network**, not a marketplace launch.
+- Business assumptions here are exploratory and should be treated as internal hypotheses.
+- The next validation step is not revenue scale; it is three real practitioner relationships, consented documentation, and one measured apprenticeship model.
+- Any future economic model must clarify compensation, fees, cancellation policy, liability, and reciprocity before public recruitment.
+- Recommended launch remains narrow: one region and one or two craft / stewardship focuses before expansion.
 
-## Core Model That Scales
+## Core Model To Validate
 
-The business follows the standard marketplace formula:
+The early hypothesis used a simple marketplace formula:
 
 **Supply (providers) + Demand (users) + Platform fee**
 
@@ -44,9 +48,9 @@ Positioning is **deeper than tourism**: learn, don’t just visit.
 
 Three macro trends support the category.
 
-### 1. The Experience Economy
+### 1. Experiential learning demand
 
-People increasingly prefer experiences over possessions. The global experience economy is estimated to exceed **$1 trillion annually**. Platforms like Airbnb report strong growth in Experiences because travelers want local immersion; this model goes further—structured learning and apprenticeship, not sightseeing alone.
+Some learners are seeking longer, more grounded forms of education through craft, land, and place. This should be tested through interviews and pilot applications, not assumed from tourism trends.
 
 ### 2. Cultural Preservation
 
@@ -135,7 +139,7 @@ Large marketplaces win through **supply lock-in**. Once the platform is known fo
 - **Masters** join because students are there, reputation grows, and bookings increase.
 - **Students** come because that is where the masters are.
 
-This flywheel mirrors Etsy and Airbnb: density on the supply side defines the category.
+This assumption remains unproven for Studium. It should not guide the pilot until practitioner trust and stewardship review are working.
 
 ## Platform Ecosystem: Learn, Discover, Steward
 

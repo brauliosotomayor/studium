@@ -46,7 +46,7 @@ Knowledge Archetypes classify **what kind of transmission** occurs at a node—n
 | **Overlap** | Land Stewardship (land-forming walls, terraces); Material Craft |
 | **Examples** | Dry stone walling (Portugal), zellige (Morocco), adobe (New Mexico), temple carpentry (Nara) |
 | **UX** | Site-based experiences; longer residency defaults |
-| **Extensibility** | Sub-tags: `sacred_building`, `vernacular`, `earthen` |
+| **Extensibility** | Sub-tags: `religious_building`, `vernacular`, `earthen` |
 
 ### 4. Land Stewardship
 
@@ -155,4 +155,4 @@ Knowledge Archetypes classify **what kind of transmission** occurs at a node—n
 - **v3:** Archetype-specific steward review templates  
 - **Hard limit:** Do not exceed 12 top-level archetypes without founder council — taxonomy drift erodes map clarity  
 
-**Proposed additions (not approved):** Sacred Ecology, Ritual Art — fold into existing nine via sub-tags until demand proves otherwise.
+**Proposed additions (not approved):** Ceremonial Ecology, Ritual Art — fold into existing nine via sub-tags until field evidence and advisor review prove otherwise.

@@ -1,118 +1,93 @@
-# Founding 13 Architecture
+# Founding 13 Planning Structure
 
-**Version:** Phase II · 2026-05-17  
-**Status:** Constellation model for founding atlas scale
-
----
-
-## Summary
-
-The **Founding 13** is the first planetary-scale constellation of Studium: **13 corridors/clusters**, each anchoring **~5 nodes**, yielding **~65 founding atlas points**. This is infrastructure for balanced global representation—not numerology for its own sake.
-
-**Growth sequence:** 3 → 5 → 5 → **13** → 50 → 200
-
-| Phase | Name | Nodes (approx.) | Function |
-|-------|------|-----------------|----------|
-| I | The Seed | 3 | Founder signal; proof of transmission |
-| II | First Circle | 5 | Regional ring complete |
-| III | Global Circle | **13 clusters × 5** = **65** | Planetary constellation live |
-| IV | The Constellation | ~50 | Operational atlas |
-| V | Civilizational Network | ~200 | Global archive density |
+**Version:** Remediated Phase II · 2026-05-17  
+**Status:** Internal planning structure, not public positioning
 
 ---
 
-## Why thirteen
+## Purpose
 
-Thirteen is used as **constellation logic**, not superstition:
+The Founding 13 is a **working planning model** for organizing candidate regions and knowledge types. It should not be presented as a claim of global representation, institutional authority, or completed field validation.
 
-- **Astronomical:** Thirteen zodiac constellations including Ophiuchus—the map is a knowledge sky, not a grid of pins.  
-- **Cyclical:** Thirteen lunar months per solar year; agricultural and craft calendars often follow lunar rhythm.  
-- **Cultural (referenced, not claimed):** Mayan thirteen heavens; goddess traditions; agricultural cycle symbolism—cited as *parallel patterns*, not ownership.  
-- **Product:** Large enough for planetary balance; small enough for stewardship depth.
-
-**Reframe:** Thirteen as sacred cycle and completeness—not “unlucky number” marketing.
+Public language should lead with the **3-practitioner Northern Portugal pilot**. This document is useful only after that pilot begins producing evidence.
 
 ---
 
-## Structural model
+## Repositioned model
 
-```
-                    FOUNDING 13
-                 (planetary constellation)
-                          │
-        ┌─────────────────┼─────────────────┐
-        │                 │                 │
-   13 clusters        ~5 nodes each     ~65 total nodes
-   (corridors)        per cluster       at founding scale
-        │                 │                 │
-        └──────── steward-gated transmission ────────┘
-```
-
-Each **Founder N** in the dataset maps to one **constellation cluster** with five anchor nodes (place + craft). Clusters are geographically and culturally distinct.
+| Planning layer | Public use now | Internal use |
+|----------------|----------------|--------------|
+| **3** | Current pilot target: three documented practitioner relationships | Proof of reality |
+| **5** | Possible first regional ring after field validation | Regional learning set |
+| **13** | Do not foreground publicly yet | Candidate corridor planning model |
+| **50+** | Do not use publicly | Long-term dataset planning only |
 
 ---
 
-## The thirteen founding clusters
+## Why keep the structure
 
-| # | Cluster (corridor) | Geographic logic | Sample anchor nodes |
-|---|-------------------|------------------|---------------------|
-| 1 | Iberian Craft & Land | Founder home corridor; Mediterranean land + craft | Douro, Alentejo, Porto, La Bisbal, Galicia |
-| 2 | Italian Master Craft | European guild lineage density | Florence, Carrara, Murano, Cremona, Valenza |
-| 3 | Japanese Master Craft | Shokunin devotion; material + satoyama | Kyoto, Kanazawa, Nara, Sado, Gifu |
-| 4 | Mesoamerican Craft & Agriculture | Indigenous agricultural intelligence | Oaxaca, Xochimilco, Guatemala Highlands, Chiapas, Michoacán |
-| 5 | Andean / Colombian Ecological | Vertical ecology + Amazon edge | Cusco, Sacred Valley, Amazon ethnobotany, Sierra Nevada, Wayuu weaving |
-| 6 | North American Stewardship | Indigenous + arid-land systems | Taos, Santa Fe, Arizona water, California burning, Great Plains |
-| 7 | Moroccan Architectural Craft | Sacred building craft | Fez, Marrakech, Atlas, Essaouira |
-| 8 | Caucasus Fermentation | Ancient fermentation civilization | Kakheti, Tbilisi, Armenia, Anatolia |
-| 9 | South Asian Textile | Subcontinental dye and weave | Jaipur, Gujarat, Kutch, Kashmir |
-| 10 | Southeast Asian Dye & Wood | Temple and batik traditions | Yogyakarta, Bali, Chiang Mai, Laos, Java |
-| 11 | West African Textile & Dye | Royal and ritual cloth | Ghana, Mali, Burkina Faso, Senegal |
-| 12 | East + Central African | Wood, land, ritual art | Kenya, Tanzania, Cameroon, DRC, Gabon |
-| 13 | Southern African + Pacific + Arctic extension | Planetary balance band | Zimbabwe, Botswana, Madagascar, Pacific navigation, Arctic knowledge |
+The structure is still useful for avoiding blind spots as Studium grows:
 
-*Note: Clusters 11–13 absorb African expansion and planetary extension corridors per `05-corridor-registry.md`. Exact node assignment is iterative in `studium_atlas_master.csv`.*
+- It prevents over-concentration in one country or craft category.
+- It helps compare candidate regions across craft, ecology, access, and sensitivity.
+- It encourages documentation standards before expansion.
+- It gives future advisors a way to review coverage without treating the dataset as complete.
 
 ---
 
-## Symbolic layer (map and brand)
+## What not to claim
 
-| Element | Meaning |
-|---------|---------|
-| **Illuminated node** | Active, steward-approved transmission site |
-| **Dim node** | Candidate; not yet open to applications |
-| **Constellation line** | Cultural/historical knowledge route (not airline route) |
-| **Center void** | Map breathes; density at edges; no cluttered center |
-| **Phase ring** | Visualize 3 → 5 → 13 → 50 → 200 as zoom-level metadata |
+Do not describe the Founding 13 as:
 
----
-
-## Connection to 50 and 200
-
-| Scale | What changes | What does not |
-|-------|--------------|---------------|
-| **13 → 50** | More nodes per corridor; secondary corridors activated; USA hub consolidation | Stewardship framework; application gating |
-| **50 → 200** | Archive depth; fellowships; institutional partnerships | Extractive booking model (still forbidden) |
-
-**Rule:** Add nodes only when **steward capacity** and **master willingness** exist. The map grows as a living archive, not a land grab.
+- a complete map of world knowledge
+- a representative international network
+- a symbolic or spiritual system
+- proof of institutional legitimacy
+- a reason to scale before fieldwork
 
 ---
 
-## Founding 13 vs. Founder's Five (UI)
+## Candidate clusters
 
-| Concept | Scale | Use |
-|---------|-------|-----|
-| **Founder's Five** | 5 illuminated points | Launch UI metaphor; first visible ring |
-| **Founding 13** | 13 clusters / ~65 nodes | Atlas architecture; data model |
-| **The Seed (3)** | 3 nodes | Earliest proof; Douro + two signal nodes |
+These clusters are planning categories drawn from the source dataset. They require practitioner consent, steward review, and field documentation before public use.
 
-These coexist: UI may show 5 while atlas backend holds 13-cluster taxonomy.
+| # | Candidate cluster | Current role | Validation needed |
+|---|-------------------|--------------|-------------------|
+| 1 | Iberian Craft & Land | Primary pilot context | Confirm first three practitioners |
+| 2 | Italian Master Craft | Comparative European craft context | Field partner or academic advisor |
+| 3 | Japanese Master Craft | Long-term craft lineage reference | Cultural advisor before outreach |
+| 4 | Mesoamerican Craft & Agriculture | High-sensitivity candidate group | Community-led review |
+| 5 | Andean / Colombian Ecological | High-sensitivity candidate group | Indigenous/community consent |
+| 6 | North American Stewardship | High-sensitivity candidate group | Steward authority definition |
+| 7 | Moroccan Architectural Craft | Building craft reference | Local partner review |
+| 8 | Caucasus Fermentation | Food and vessel knowledge reference | Practitioner validation |
+| 9 | South Asian Textile | Textile lineage reference | Cultural advisor review |
+| 10 | Southeast Asian Dye & Wood | Ritual/building/textile reference | Partner-led access review |
+| 11 | West African Textile & Dye | Textile and oral-history reference | Community and cultural review |
+| 12 | East / Central African Craft & Land | Candidate group | Local partnership required |
+| 13 | Southern African / Pacific / Arctic references | Dataset extension only | Defer until governance is tested |
 
 ---
 
-## Open decisions
+## Pilot-first rule
 
-1. Final assignment of Tier III corridors (Pacific, Arctic, Tibetan) to Founders 11–13 vs. post-13 expansion.  
-2. Whether Colombia remains distinct cluster or fully merges under Andean.  
-3. Naming of Founder 3 “Storytelling” node (Kyoto)—archetype classification under Music & Storytelling vs. philosophy node.
+No candidate cluster should be promoted externally until Studium can show:
 
-**Dataset reference:** `13 Founders` sheet → `Founder Phase` column in `data/studium_atlas_master.csv`.
+1. A real practitioner relationship
+2. Consent terms
+3. Field documentation
+4. A steward or community review path
+5. A clear benefit or reciprocity model
+
+---
+
+## Connection to later phases
+
+The planning structure can support later growth only after:
+
+- the Northern Portugal pilot produces documented case studies;
+- the stewardship framework is tested with real participants;
+- advisors review the documentation and consent process;
+- practitioner compensation and participation terms are clear.
+
+Until then, this file is a planning aid, not a public promise.

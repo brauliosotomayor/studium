@@ -14,7 +14,7 @@ At the same time, a new generation is searching for something deeper: the opport
 
 **Studium exists to rebuild that bridge.**
 
-We are creating a global network where students can find the world’s living masters of craft and land, and where those masters can pass their knowledge to those ready to receive it.
+We are testing a small pilot where students can learn from craftspeople and land stewards through documented, consent-based apprenticeship.
 
 Studium is not a marketplace for tourism or entertainment.
 
@@ -48,9 +48,9 @@ By connecting students with masters and stewards across the world, we hope to pr
 
 This is not simply an app.
 
-It is an atlas of living knowledge.
+It begins as fieldwork.
 
-A modern guild for a changing world.
+A careful prototype for learning, documentation, and stewardship.
 
 A place where devotion to learning becomes a path forward.
 
@@ -60,6 +60,6 @@ A place where devotion to learning becomes a path forward.
 
 ## Context
 
-This manifesto is intended as the philosophical backbone of the Studium platform—a document that helps align investors, masters, students, institutions, and partners. It clarifies that Studium is not merely another tech product, but an ecosystem built around stewardship of knowledge.
+This statement is a draft orientation document. It should not be used to imply institutional authority before fieldwork, practitioner consent, and partner review exist.
 
 A natural next step after articulating this vision is to design the first pilot: choosing an initial region, identifying the first ten masters, and defining the first types of apprenticeships—the point at which vision becomes concrete and actionable.

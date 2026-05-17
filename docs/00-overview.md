@@ -1,15 +1,15 @@
 # Studium — Project Overview
 
-Studium is a platform concept for connecting **students** with **masters** of craft and **stewards** of land—rebuilding apprenticeship pathways that are breaking as older generations retire. It is framed as a modern guild system: a two-sided marketplace for deep learning experiences, a cultural archive of living knowledge, and an atlas rooted in place—not tourism or entertainment.
+Studium is an early-stage pilot for connecting **students** with craftspeople and land stewards through place-based apprenticeship, documentation, and cultural preservation. The current work is a small-scale research prototype focused on Northern Portugal, not a launched marketplace or institution.
 
 ## Document map
 
 | Doc | Purpose |
 |-----|---------|
-| [index.html](./index.html) | Front page — manifesto, triangle, corridors, Founding 13, archetypes, atlas |
+| [index.html](./index.html) | Front page — pilot status, governance, documentation method, operating principles |
 | [05-corridor-registry.md](./05-corridor-registry.md) | **Phase II** — canonical corridor registry |
 | [06-knowledge-archetypes.md](./06-knowledge-archetypes.md) | Nine knowledge archetypes |
-| [07-founding-13.md](./07-founding-13.md) | Founding 13 constellation architecture |
+| [07-founding-13.md](./07-founding-13.md) | Internal Founding 13 planning structure |
 | [08-stewardship-framework.md](./08-stewardship-framework.md) | Stewardship & sensitivity ethics |
 | [09-master-evaluation-framework.md](./09-master-evaluation-framework.md) | Master candidate scoring |
 | [10-atlas-experience.md](./10-atlas-experience.md) | Map UX & discovery logic |
@@ -24,7 +24,7 @@ Studium is a platform concept for connecting **students** with **masters** of cr
 
 ## Core ideas (one page)
 
-### The triangle
+### Operating posture
 
 ```
               MASTER
@@ -34,19 +34,19 @@ STUDENT ---------------- STEWARD
  (seeker)              (guardian of place)
 ```
 
-Knowledge survives only when all three roles are active. The platform expresses this cycle in profiles, discovery, and narrative—not just listings.
+The Student · Master · Steward triangle remains a useful internal model, but public positioning should lead with fieldwork, consent, documentation, and community partnership.
 
 ### The business
 
-- **Model:** Supply (masters) + demand (students) + platform fee (15–25%)
-- **Wedge:** Traditional crafts in Southern Europe (Portugal, Italy, Spain, France) before expanding to full land-stewardship ecosystem
-- **Defensibility:** Network of living masters as canonical supply; documentation and archive deepen over time
+- **Current model:** research prototype and pilot stewardship network
+- **Near-term wedge:** one region in Northern Portugal
+- **Validation needed:** real practitioner relationships, field interviews, partner review, compensation framework
 
 ### The pilot (year one)
 
 - **Region:** Northern Portugal (Douro, Minho, Serra da Estrela, Trás-os-Montes)
-- **Targets:** 10 founding masters · ~50 student completions · minimal app (map, profiles, listings, apply, book)
-- **Proof points:** Master participation · student commitment to deep apprenticeships · word-of-mouth transformation
+- **Targets:** 3 documented practitioner relationships · 1 tested stewardship review process · 1 measurable apprenticeship model
+- **Proof points:** consented documentation, clear participation terms, practitioner trust, community review
 
 ### Product principle
 
@@ -56,13 +56,14 @@ v1 explicitly excludes social features and heavy tech. Booking and trust come fi
 
 ## Recommended reading order
 
-1. **Manifesto** — voice and values  
-2. **Triangle philosophy** — product and brand architecture  
-3. **Marketplace & business** — economics and strategy  
-4. **Pilot plan** — what to build and measure first  
+1. **Pilot plan** — what to verify first  
+2. **Stewardship framework** — governance and consent  
+3. **Master evaluation** — who should participate and why  
+4. **Dataset** — source material to validate through fieldwork  
 
 ## Status
 
-- Vision and strategy: documented from founder conversation (May 2026)
-- Implementation: not started
-- Open decisions: see [04-pilot-plan.md § Open questions](./04-pilot-plan.md#open-questions) and [ORCHESTRATOR.md](./ORCHESTRATOR.md)
+- Vision and strategy: documented, now remediated toward pilot-stage language
+- Fieldwork: not yet documented publicly
+- Implementation: no app code yet
+- Open decisions: founding practitioner, first field site, advisor/steward review structure

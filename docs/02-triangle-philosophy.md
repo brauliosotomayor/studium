@@ -130,13 +130,13 @@ This resonates with cultural preservation, ecological responsibility, and meanin
 
 **Guiding principle (one sentence)**
 
-> To connect students with masters and stewards so that the world’s knowledge rooted in place continues to live.
+> To test whether students, craftspeople, and stewards can participate in a small, consent-based apprenticeship and documentation model.
 
 ---
 
 ## Map and Triangle Together
 
-Maps add a spatial dimension: points on the map represent masters (and the wider network), each associated with the triangle symbol. The result is a **global constellation of knowledge**—place-based expertise visible at scale.
+Maps add a spatial dimension only after field relationships exist. In the pilot stage, map points should distinguish candidate data from verified practitioner relationships, consent status, and stewardship review.
 
 ---
 

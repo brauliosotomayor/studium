@@ -2,8 +2,36 @@
 
 **Repo:** `brauliosotomayor/studium`  
 **Branch:** `main`  
-**Last updated:** 2026-05-17 (Phase II complete)  
+**Last updated:** 2026-05-17 (credibility remediation complete)  
 **Audience:** Remote orchestrator / agent coordinator assigning work to subagents
+
+---
+
+## Critical remediation complete
+
+Public positioning has been narrowed from broad atlas/institutional language to:
+
+> **Pilot stewardship network for place-based apprenticeship and cultural preservation.**
+
+Use a research posture. Do not speak as an institution, imply field validation that does not exist, or foreground symbolic planning models.
+
+### Current public framing
+
+| Item | Current stance |
+|------|----------------|
+| Stage | Pre-fieldwork prototype |
+| Public scope | One-region Northern Portugal pilot |
+| Near-term proof | 3 documented practitioner relationships |
+| App code | Not started; do not build yet |
+| Required evidence | Interviews, field photography, consent terms, steward review |
+
+### Prohibited public framing
+
+- broad legacy-scale language
+- symbolic scale explanations
+- global representation claims
+- marketplace language that sounds like tourism or creator bookings
+- claims of institutional authority before advisors and partners exist
 
 ---
 
@@ -20,13 +48,13 @@
 | P6 Map UX | `docs/10-atlas-experience.md` | ✅ |
 | P7 Site | `docs/index.html` + `docs/assets/` | ✅ |
 
-**Next phase:** P0 decisions (D1–D3) → W1–W5 docs OR T1 IA/data model. **No app code yet.**
+**Next phase:** Proof of Reality — 3 practitioner relationships, one steward framework tested in practice, one documented interview, and a participation / consent policy. **No app code yet.**
 
 ---
 
 ## Mission (one sentence)
 
-Build the infrastructure and first real-world pilot for **Studium**—a platform that connects students with masters of craft and stewards of land through immersive apprenticeships, starting in Northern Portugal.
+Build a small, documented pilot for **Studium**: place-based apprenticeship with craftspeople and land stewards, starting in Northern Portugal, governed by consent, community review, and measured outcomes.
 
 ---
 
@@ -41,7 +69,7 @@ Build the infrastructure and first real-world pilot for **Studium**—a platform
 | Business case | ✅ `docs/01-marketplace-and-business.md` |
 | Pilot spec | ✅ `docs/04-pilot-plan.md` (includes open questions) |
 | Code / app | ❌ Not started |
-| Founding masters | ❌ Not recruited |
+| Practitioner relationships | ❌ Not documented publicly |
 | Design system / UI | ❌ Not started |
 | Legal / payments / liability | ❌ Not specified |
 
@@ -53,7 +81,7 @@ Build the infrastructure and first real-world pilot for **Studium**—a platform
 
 1. **Not tourism** — devotion to learning; reject experiences-marketplace positioning.
 2. **Place-rooted** — every experience tied to geography, lineage, and steward context.
-3. **Triangle is core** — Student · Master · Steward shapes profiles, map, and narrative.
+3. **Triangle is internal model** — public materials should lead with fieldwork, consent, and governance.
 4. **Start narrow** — crafts in Southern Europe before full ecology/land expansion.
 5. **Pilot before scale** — year one proves masters participate, students commit deeply, and stories spread organically.
 6. **Minimal v1 app** — map, master profiles, listings, applications, secure booking only.
@@ -68,19 +96,19 @@ Assign subagents in parallel where tasks are independent. Respect dependencies n
 
 | ID | Task | Owner | Blocks |
 |----|------|-------|--------|
-| D1 | Choose **founding master** (first point on map) | Founder | Pilot narrative, outreach |
-| D2 | Confirm **pilot sub-region** (one vs. four in Northern Portugal) | Founder | Logistics, marketing |
-| D3 | Resolve **niche focus** for launch: crafts-only vs. crafts + land equally | Founder | Master recruitment list |
+| D1 | Choose first **practitioner relationship** to document | Founder | Fieldwork, outreach |
+| D2 | Confirm first field site / sub-region in Northern Portugal | Founder | Logistics, photography |
+| D3 | Resolve first craft / stewardship focus | Founder | Interview protocol |
 
 ### P1 — Parallel workstreams (no code required yet)
 
 | ID | Task | Suggested output | Depends on |
 |----|------|------------------|------------|
-| W1 | **Founding circle roster** — research/nominate 10 masters (craft + land mix per pilot doc) | `docs/05-founding-masters.md` | D1, D2 |
-| W2 | **Apprenticeship catalog** — 3–5 experience templates with pricing bands | `docs/06-experience-catalog.md` | W1 partial |
-| W3 | **Student acquisition plan** — architecture schools, craft schools, slow-travel channels | `docs/07-student-acquisition.md` | — |
-| W4 | **Documentation playbook** — photo/film/interview protocol for archive | `docs/08-documentation-playbook.md` | — |
-| W5 | **Institutional outreach** — shortlist 3 partners (schools, UNESCO-adjacent, ecology) | `docs/09-institutional-partners.md` | — |
+| W1 | **Practitioner relationship brief** — one real candidate, contact path, consent questions | `docs/11-practitioner-relationship-brief.md` | D1, D2 |
+| W2 | **Documentation playbook** — interview, photo, permissions, archive standards | `docs/12-documentation-playbook.md` | D1 |
+| W3 | **Consent and participation policy** — student, practitioner, steward terms | `docs/13-consent-participation-policy.md` | D1 |
+| W4 | **Pilot economics** — compensation, fees, expenses, cancellation, liability boundaries | `docs/14-pilot-economics.md` | D1 |
+| W5 | **Advisor map** — academic, cultural, ecological advisor candidates | `docs/15-advisor-map.md` | — |
 
 ### P2 — Product & technical (after P0 decisions)
 

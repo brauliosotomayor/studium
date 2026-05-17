@@ -1,22 +1,27 @@
-# Map UX & Discovery Logic
+# Pilot Map & Discovery Logic
 
-**Version:** Phase II · 2026-05-17  
-**Status:** Experience specification (static concept on site; app not built)
+**Version:** Remediated Phase II · 2026-05-17  
+**Status:** UX planning note; no app implementation yet
 
 ---
 
 ## Design intent
 
-The Studium map is a **living atlas**, not a booking grid.
+The first interface should support **field documentation and careful discovery**, not broad consumer browsing. The map should help a small team understand where relationships exist, what permissions apply, and what documentation is ready for review.
 
-| Feel | Avoid |
-|------|-------|
-| Sacred, cinematic, intentional | Crowded pin spam |
-| Slow zoom; breathing layout | Yelp density |
-| Constellation corridors | Airbnb price cards |
-| Stewardship gravity | Influencer discovery |
+Public-facing language should describe this as a **pilot map prototype**, not a completed atlas.
 
-**Reference aesthetics:** Antique atlases, Japanese craft monographs, museum catalogs, field journals—earth tones, parchment, minimal type (see `docs/index.html`).
+---
+
+## Current use case
+
+| Need | Interface response |
+|------|--------------------|
+| Show the current pilot area | Northern Portugal region card and research boundary |
+| Track practitioner relationships | Candidate / contacted / consented / documented statuses |
+| Record stewardship review | Steward contact, permission level, restrictions |
+| Avoid over-publication | Hide sensitive locations until approved |
+| Support fieldwork | Interview checklist, photo permissions, archive notes |
 
 ---
 
@@ -24,12 +29,12 @@ The Studium map is a **living atlas**, not a booking grid.
 
 | Layer | Default | Description |
 |-------|---------|-------------|
-| **Base** | On | Parchment/ocean minimal cartography; low political noise |
-| **Corridors** | On | Curved routes connecting node clusters—not straight geodesics |
-| **Nodes** | On | Illuminated (active) vs dim (candidate) |
-| **Archetypes** | Off | Color overlay per `06-knowledge-archetypes.md` |
-| **Stewardship** | Off | High-sensitivity halo; indigenous/ecological boundaries |
-| **Constellation phase** | Metadata | 3 / 5 / 13 / 50 / 200 ring indicator at zoom out |
+| **Pilot region** | On | Northern Portugal research area |
+| **Practitioner status** | On | Candidate, contacted, consented, documented |
+| **Craft focus** | On | Practical categories such as vineyard stewardship, stone, cork, ceramics |
+| **Stewardship review** | On | Consent status, media limits, community partner |
+| **Sensitivity** | On | Low / Medium / High review requirement |
+| **Archive readiness** | Off | Whether interview, photos, and permissions are publishable |
 
 ---
 
@@ -37,118 +42,79 @@ The Studium map is a **living atlas**, not a booking grid.
 
 | Level | View | Behavior |
 |-------|------|----------|
-| **0 — Planet** | Global | 13 constellation clusters as soft regions; no pin labels |
-| **1 — Corridor** | Continental | Corridor name + route arc; node count badge |
-| **2 — Region** | Country/subregion | Nodes visible; craft labels on hover |
-| **3 — Place** | Local | Master/steward card; application CTA (future) |
-| **4 — Workshop** | Site (future) | Interior documentation; archive media |
-
-**Rule:** Never show Level 3+ for High sensitivity without application acceptance.
+| **Region** | Northern Portugal | Show pilot scope and methodology |
+| **Sub-region** | Douro, Minho, Serra da Estrela, Tras-os-Montes | Show research areas, not exact private sites |
+| **Practitioner** | Approved relationships only | Show craft, consent status, and documentation summary |
+| **Workshop / field site** | Restricted | Visible only after explicit permission |
 
 ---
 
-## Corridor visualization
+## Filters
 
-```
-     ●───────●  Murano
-    ╱         ╲
-   ● Florence ●──── Carrara
-    ╲         ╱
-     ●───────●  Cremona
+| Filter | Purpose |
+|--------|---------|
+| Craft / stewardship focus | Understand pilot coverage |
+| Relationship status | Separate real relationships from dataset candidates |
+| Documentation status | Interviewed, photographed, reviewed, publishable |
+| Sensitivity | Apply additional review before display |
+| Steward type | Practitioner, community partner, land steward, institution |
 
-  Italian Master Craft Corridor (arc, not box)
-```
-
-- Corridors drawn as **great-circle-inspired curves** following cultural routes.  
-- Sub-clusters (Tuscany, Veneto) appear only at Level 2+.  
-- Click corridor → filter rail locks to corridor + shows registry excerpt.
+Avoid filters for price, popularity, ratings, or “near me” discovery.
 
 ---
 
-## Filtering
+## Practitioner card
 
-| Filter | Type | Notes |
-|--------|------|-------|
-| Corridor | Single or multi | Primary navigation |
-| Knowledge Archetype | Multi | OR within, AND with corridor |
-| Steward Type | Craft Master / Land Steward | |
-| Sensitivity | Show/hide High | Default: hide High until “serious seeker” toggle |
-| Founder Phase | Seed / 13 / 50 | Educational overlay |
-| Duration | Visit / Apprenticeship / Residency | From experience catalog (future) |
-| Indigenous / Ecological | Y/N | Steward-gated visibility |
+```text
+Craft / stewardship title
+Sub-region · Portugal
 
-**No filters for:** price, rating, popularity, “near me” tourism.
+Status: contacted / consented / documented
+Stewardship review: pending / approved / restricted
+Documentation: interview, workshop photos, field notes
 
----
-
-## Constellation behavior
-
-| Phase | Visual |
-|-------|--------|
-| **3 (Seed)** | Three bright stars; rest constellation outline only |
-| **5** | First ring complete; pulse animation on new acceptance |
-| **13** | Full founding constellation; 13 cluster labels |
-| **50** | Density increase; dim nodes activate |
-| **200** | Global mesh; archive search primary |
-
-Animation: **slow breathe** (4–6s cycle)—never gamified sparkle.
-
----
-
-## Node card (discovery)
-
-```
-┌─────────────────────────────────┐
-│ [archetype badge]  Medium sens. │
-│ Vineyard Stewardship            │
-│ Douro Valley · Portugal         │
-│ Iberian Craft & Land Corridor   │
-│ ─────────────────────────────── │
-│ Terraced viticulture…           │
-│ [Apply to learn]  not [Book now]│
-└─────────────────────────────────┘
+Primary action: request review
+Not: instant book
 ```
 
 ---
 
-## Sensitivity layers
+## Publication rules
 
-| Overlay | Visual | Interaction |
-|---------|--------|-------------|
-| **Indigenous** | Soft amber boundary | Click → stewardship code summary |
-| **Ecological** | Green contour | Seasonal availability hint |
-| **High sensitivity** | Node hidden until intent declared | Extra application fields |
-
----
-
-## Static site (Phase II)
-
-`docs/index.html` implements:
-
-- Hero + manifesto  
-- Triangle section  
-- **Corridor cards** (top corridors by node count)  
-- **Founding 13** summary  
-- **Archetype grid**  
-- **Map concept** panel with brand imagery from `docs/assets/`  
-
-Full interactive map = Phase III (after IA + stack).
+1. Exact private locations stay hidden unless approved.
+2. A practitioner card should not go public before consent and review.
+3. Sensitive practices require additional cultural or ecological review.
+4. Student applications should open only after the pilot model is tested.
+5. The interface should always distinguish source data from field-verified relationships.
 
 ---
 
-## Accessibility & performance
+## Static site use
 
-- Map alternative: **accessible list view** with same filters  
-- Low-motion mode disables breathe animation  
-- No autoplay video on map  
-- Image lazy-load; corridor data from CSV fetch (future)
+The current `docs/index.html` should present:
+
+- current pilot status;
+- what exists today;
+- what remains experimental;
+- stewardship principles;
+- documentation method;
+- links to working documents.
+
+It should not present a broad global map as if it already exists operationally.
 
 ---
 
-## Related artifacts
+## Next UX deliverable
 
-- `05-corridor-registry.md`  
-- `06-knowledge-archetypes.md`  
-- `07-founding-13.md`  
-- `08-stewardship-framework.md`  
-- `data/studium_atlas_master.csv`
+After founder decisions D1-D3, create:
+
+`docs/11-pilot-ia-and-data-model.md`
+
+Required contents:
+
+- relationship status lifecycle;
+- field documentation schema;
+- consent and media permission model;
+- minimal public profile fields;
+- admin-only fields for steward review;
+- criteria for when a candidate becomes public.

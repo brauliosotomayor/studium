@@ -21,7 +21,7 @@ Evaluate **whether a practitioner should become an atlas node**—not whether th
 | **Ecological relevance** | 15 | Place-based systems; climate and land integration |
 | **Teaching capacity** | 15 | Ability and willingness to transmit (not just perform) |
 | **Continuity risk** | 15 | Urgency: knowledge endangered if node not supported |
-| **Geographic importance** | 10 | Corridor balance; fills constellation gap |
+| **Geographic importance** | 10 | Helps balance the pilot or future corridor dataset |
 | **Symbolic importance** | 10 | Founding 13 balance; represents underrepresented archetype |
 | **Accessibility** | 5 | Travel feasibility without tourism distortion |
 | **Stewardship alignment** | 10 | Steward partner available; anti-extraction fit |
@@ -79,7 +79,7 @@ Evaluate **whether a practitioner should become an atlas node**—not whether th
 | Score | Indicator |
 |-------|-----------|
 | 9–10 | Completes archetype or cultural balance in Founding 13 |
-| 5–8 | Supports constellation narrative |
+| 5–8 | Supports documented regional balance |
 | 0–4 | Marginal symbolic contribution |
 
 ### Accessibility (0–5)

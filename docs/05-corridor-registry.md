@@ -18,9 +18,9 @@ Corridors are **knowledge transmission geographies**, not tourist regions. Each 
 |-------|-------|------|
 | **3** | Founder signal | Proof of transmission; first illuminated nodes |
 | **5** | Regional ring | First complete geographic cluster |
-| **13** | Planetary constellation | Founding atlas architecture (13 × 5 = 65 nodes) |
-| **50** | Operational atlas | Stable global network |
-| **200** | Global knowledge network | Civilizational archive scale |
+| **13** | Internal planning set | Candidate corridor structure for later review |
+| **50** | Operational dataset | Only after field validation and governance testing |
+| **200** | Long-term research archive | Not public positioning at the current stage |
 
 Corridors expand in **depth** (nodes per corridor) before **breadth** (new corridors).
 
@@ -59,7 +59,7 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 | Field | Value |
 |-------|--------|
 | **Geographic span** | Fez → Marrakech → Atlas Mountains → Essaouira |
-| **Philosophy** | Architecture as sacred geometry; craft embedded in building culture |
+| **Philosophy** | Building craft embedded in cultural, religious, and local construction traditions |
 | **Primary knowledge systems** | Zellige tile, tadelakt plaster, Berber weaving, pastoral stewardship, wood carving |
 | **Archetypes** | Architecture & Building Craft, Textile & Fiber Craft, Land Stewardship, Material Craft |
 | **Sensitivity** | Medium–High (religious craft contexts; steward-led access) |
@@ -111,7 +111,7 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 | Field | Value |
 |-------|--------|
 | **Geographic span** | Yogyakarta → Bali → Northern Thailand → Laos → Java |
-| **Philosophy** | Sacred material culture; temple carving, batik, and gamelan as place-bound practice |
+| **Philosophy** | Place-bound material culture; temple carving, batik, and gamelan require careful partner review |
 | **Primary knowledge systems** | Batik dyeing, temple carving, umbrella craft, silk weaving, gamelan instrument making |
 | **Archetypes** | Textile & Fiber Craft, Material Craft, Architecture & Building Craft, Instrument & Music Craft |
 | **Sensitivity** | Medium–High (temple and ritual contexts) |
@@ -173,7 +173,7 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 
 ---
 
-## Planetary extension corridors (Tier III — constellation phase)
+## Deferred extension corridors (Tier III — research only)
 
 | Corridor | Span | Nodes | Notes |
 |----------|------|-------|-------|

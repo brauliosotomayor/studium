@@ -1,6 +1,6 @@
 # Studium
 
-A global network where students find living masters of craft and land—and where knowledge rooted in place continues to live.
+An early-stage pilot for place-based apprenticeship, documentation, and cultural preservation in Northern Portugal.
 
 **Student · Master · Steward**
 
@@ -8,7 +8,7 @@ A global network where students find living masters of craft and land—and wher
 
 | Path | Description |
 |------|-------------|
-| [`docs/index.html`](docs/index.html) | Front page (manifesto, triangle, pilot teaser) |
+| [`docs/index.html`](docs/index.html) | Front page (pilot status, stewardship, documentation method) |
 | **Live site** | https://brauliosotomayor.github.io/studium/ |
 | [`docs/00-overview.md`](docs/00-overview.md) | Start here — project summary and doc index |
 | [`data/studium_atlas_master.csv`](data/studium_atlas_master.csv) | Normalized atlas (266 nodes) |

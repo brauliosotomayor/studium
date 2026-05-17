@@ -17,7 +17,7 @@
 |------|------------|----------------|
 | **Low** | Established craft economies; low ritual restriction; public workshop norms | Standard application + master approval |
 | **Medium** | Cultural context required; limited capacity; some media limits | Steward review within 14 days |
-| **High** | Indigenous, sacred, ecological fragile, or politically vulnerable lineages | Steward council + elder consent; restricted media |
+| **High** | Indigenous, ceremonial, ecologically fragile, or politically vulnerable lineages | Steward council + elder consent; restricted media |
 
 Dataset field: `Sensitivity` in `studium_atlas_master.csv`.
 
@@ -124,7 +124,7 @@ Required fields (future app; enforce in ops now):
 |------------|------|
 | **Indigenous knowledge holders** | Steward nation or community organization as co-gate |
 | **Ecological systems** | Land carrying capacity cap per season |
-| **Sacred traditions** | No public pricing display without steward approval |
+| **Ceremonial traditions** | No public pricing display without steward approval |
 | **Vulnerable lineages** | Fewer than N practitioners globally → High by default |
 | **Women-only / initiation traditions** | Gender and initiation rules respected in listing visibility |
 
