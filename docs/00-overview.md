@@ -12,6 +12,10 @@ Studium is a pre-institutional pilot initiative for connecting learners with cra
 6. [19-technology-and-data-architecture.md](./19-technology-and-data-architecture.md) — archive logic, metadata, access tiers and app-build gate
 7. [16-operational-pilot-plan.md](./16-operational-pilot-plan.md) — 24-month Northern Portugal operating sequence
 8. [17-risk-and-failure-analysis.md](./17-risk-and-failure-analysis.md) — risk register logic and stop / pivot / continue criteria
+9. [21-community-consent-workflow.md](./21-community-consent-workflow.md) — operational consent sequence and authority mapping
+10. [22-documentation-restriction-policy.md](./22-documentation-restriction-policy.md) — restriction tiers and prohibited documentation conditions
+11. [23-field-documentation-protocol.md](./23-field-documentation-protocol.md) — field capture, storage and review steps
+12. [24-community-review-procedure.md](./24-community-review-procedure.md) — community review, takedown and audit procedure
 
 ---
 
@@ -28,6 +32,10 @@ Studium is a pre-institutional pilot initiative for connecting learners with cra
 | [17-risk-and-failure-analysis.md](./17-risk-and-failure-analysis.md) | Canonical operating | Internal | Failure monitoring and stop / pivot / continue criteria |
 | [19-technology-and-data-architecture.md](./19-technology-and-data-architecture.md) | Canonical operating | Internal | Archive, metadata and technology constraints |
 | [20-public-language-and-positioning-guide.md](./20-public-language-and-positioning-guide.md) | Canonical language | Internal guiding public copy | Public language constraints and forbidden claims |
+| [21-community-consent-workflow.md](./21-community-consent-workflow.md) | Draft operating | Internal | Consent sequence, authority mapping and revocation handling |
+| [22-documentation-restriction-policy.md](./22-documentation-restriction-policy.md) | Draft operating | Internal | Access categories, prohibited conditions and restriction enforcement |
+| [23-field-documentation-protocol.md](./23-field-documentation-protocol.md) | Draft operating | Internal | Capture, metadata, storage and release gates |
+| [24-community-review-procedure.md](./24-community-review-procedure.md) | Draft operating | Internal | Community review, revision, takedown and audit logging |
 | [09-master-evaluation-framework.md](./09-master-evaluation-framework.md) | Operational internal | Internal | Practitioner candidate scoring and review |
 | [14-apprenticeship-framework.md](./14-apprenticeship-framework.md) | Operational internal | Internal | Study formats, screening, compensation and capacity limits |
 | [15-institutional-comparison-study.md](./15-institutional-comparison-study.md) | Operational reference | Internal | Institutional comparison and failure-pattern reference |

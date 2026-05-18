@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Documentation Restriction Policy — Studium</title>
+  <meta name="description" content="Documentation Restriction Policy in the Studium public documentation hierarchy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="studium-site.css">
+</head>
+<body>
+  <header class="site-header wrap">
+    <p class="eyebrow">Student · Master · Steward</p>
+    <h1><a href="index.html">Studium</a></h1>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="00-overview.html">Overview</a>
+      <a href="20-public-language-and-positioning-guide.html">Public Language</a>
+      <a href="11-governance-blueprint.html">Governance</a>
+      <a href="12-stewardship-operating-model.html">Stewardship</a>
+      <a href="13-consent-and-documentation-ethics.html">Consent</a>
+      <a href="16-operational-pilot-plan.html">Pilot Plan</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="document-hero wrap">
+      <p class="breadcrumb"><a href="index.html">Home</a> / <a href="00-overview.html">Documentation</a> / 22-documentation-restriction-policy</p>
+      <h2 class="document-title">Documentation Restriction Policy</h2>
+      <div class="badge-row">
+        <span class="status-badge canonical">Draft Operational Document</span>
+      </div>
+      <aside class="document-meta" aria-label="Document metadata">
+        <dl>
+          <dt>Status</dt>
+          <dd>Drafted restriction policy before archive ingestion and field documentation</dd>
+          <dt>Audience</dt>
+          <dd>Internal archive and documentation operations</dd>
+          <dt>Repository path</dt>
+          <dd><code>docs/22-documentation-restriction-policy.md</code></dd>
+          <dt>Last reviewed</dt>
+          <dd>2026-05-17</dd>
+        </dl>
+      </aside>
+    </section>
+
+    <article class="document-body">
+<p><strong>Version:</strong> Phase IV draft · 2026-05-17 <strong>Status:</strong> Drafted restriction policy before archive ingestion and field documentation</p>
+<hr>
+<h2 id="purpose">Purpose</h2>
+<p>This policy defines documentation access categories, prohibited documentation conditions and required ownership for restricting, sealing, reviewing or publishing Studium materials.</p>
+<p>This policy is drafted. It becomes implemented only when archive records, storage controls and audit logs enforce these categories.</p>
+<hr>
+<h2 id="access-categories">Access categories</h2>
+<div class="table-wrap"><table><thead><tr><th>Category</th><th>Function</th><th>Who approves</th><th>Who can revoke</th></tr></thead><tbody>
+<tr><td>Sealed</td><td>Store material with no routine access pending explicit re-approval</td><td>Individual, practitioner or community authority plus archive steward</td><td>Granting authority, archive steward or governance steward</td></tr>
+<tr><td>Community-only</td><td>Permit access only to named community reviewers or partner group</td><td>Community authority</td><td>Community authority or governance steward</td></tr>
+<tr><td>Practitioner-only</td><td>Return or hold material for the practitioner without Studium reuse</td><td>Practitioner</td><td>Practitioner</td></tr>
+<tr><td>Internal restricted</td><td>Permit Studium internal review for consent, editing, risk or archive work</td><td>Archive steward</td><td>Participant, practitioner, community authority or archive steward</td></tr>
+<tr><td>Public</td><td>Permit approved public display or release</td><td>All applicable individual, practitioner, community and site authorities</td><td>Any granting authority can request restriction review</td></tr>
+<tr><td>Withdrawn</td><td>Remove from active use and retain only a tombstone record where needed</td><td>Granting authority or governance steward</td><td>Granting authority controls any future re-entry</td></tr>
+</tbody></table></div>
+<hr>
+<h2 id="default-rule">Default rule</h2>
+<p>All documentation defaults to <code>internal_restricted</code> before review. Use <code>sealed</code> when community authority is unresolved, harm level is high, restricted knowledge appears, exact site data appears, consent scope is unclear, withdrawal is pending or reviewer instruction conflicts with a proposed tier.</p>
+<p>Public access is an exception that requires affirmative review, timestamped approval and access-tier change logging.</p>
+<hr>
+<h2 id="prohibited-documentation-conditions">Prohibited documentation conditions</h2>
+<ol>
+<li>A person declines recording, photography, transcription or note-taking.</li>
+<li>A practitioner permits participation but denies documentation.</li>
+<li>A community authority has not reviewed shared knowledge or community representation.</li>
+<li>A site owner or land steward denies location capture.</li>
+<li>Documentation would reveal restricted knowledge, trade method, ecological vulnerability or private route.</li>
+<li>Compensation, review rights or withdrawal terms have not been explained.</li>
+<li>Student or visitor media capture is proposed without practitioner approval.</li>
+<li>Archive storage cannot enforce the assigned access tier.</li>
+</ol>
+<p>If a prohibited condition appears during fieldwork, documentation stops and any captured material becomes sealed until review.</p>
+<hr>
+<h2 id="category-change-procedure">Category change procedure</h2>
+<div class="table-wrap"><table><thead><tr><th>Change</th><th>Required approval</th><th>Required log fields</th></tr></thead><tbody>
+<tr><td>Internal restricted to public</td><td>Individual, practitioner and any applicable community or site authority</td><td>requester, approvers, timestamp, archive IDs, public copy path, review date</td></tr>
+<tr><td>Sealed to any access tier</td><td>Original authority plus governance steward</td><td>reason for reopening, scope, access tier, next review</td></tr>
+<tr><td>Public to restricted</td><td>Any granting authority or governance steward</td><td>takedown time, affected surfaces, replacement status</td></tr>
+<tr><td>Any tier to withdrawn</td><td>Granting authority or governance steward</td><td>withdrawal type, retained tombstone fields, future-use rule</td></tr>
+</tbody></table></div>
+<hr>
+<h2 id="enforcement-checks">Enforcement checks</h2>
+<p>Before material leaves restricted storage, the archive steward verifies consent ID, active consent status, recorded authority layers, access tier, prohibited uses, review date, withdrawal status, separate public copy and audit log entry.</p>
+<p>If any check fails, release is denied and the material remains restricted or sealed.</p>
+    </article>
+  </main>
+
+  <footer class="wrap">
+    <p>Studium does not operate an apprenticeship program, steward network or institutional partnership structure.</p>
+    <nav class="footer-nav" aria-label="Repository navigation">
+      <a href="index.html">Homepage</a>
+      <a href="00-overview.html">Document hierarchy</a>
+      <a href="https://github.com/brauliosotomayor/studium">GitHub repository</a>
+    </nav>
+  </footer>
+</body>
+</html>
