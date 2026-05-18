@@ -1,15 +1,15 @@
 # Business Hypothesis (Archival)
 
-**Status:** Early strategic hypothesis, superseded for public positioning by the pilot-stage framing in `00-overview.md`, `04-pilot-plan.md`, and `08-stewardship-framework.md`.
+**Status:** Early strategic hypothesis, superseded for public positioning by the pilot-stage framing in `00-overview.md`, `04-pilot-plan.md` and `08-stewardship-framework.md`.
 
-This document should not be used as external copy. It records an earlier business-model exploration and must be validated through fieldwork, practitioner consent, and partner review before any economic claims are made publicly.
+Use this document as an internal business hypothesis. It records an earlier exploration that requires fieldwork, practitioner consent and partner review before public economic claims.
 
 ## Executive Summary
 
-- The current public position is a **pilot stewardship network**, not a marketplace launch.
+- The current public position is a **pilot stewardship network** at prototype stage.
 - Business assumptions here are exploratory and should be treated as internal hypotheses.
-- The next validation step is not revenue scale; it is three real practitioner relationships, consented documentation, and one measured apprenticeship model.
-- Any future economic model must clarify compensation, fees, cancellation policy, liability, and reciprocity before public recruitment.
+- The next validation step is three real practitioner relationships, consented documentation and one measured apprenticeship model.
+- Any future economic model must clarify compensation, fees, cancellation policy, liability and reciprocity before public recruitment.
 - Recommended launch remains narrow: one region and one or two craft / stewardship focuses before expansion.
 
 ## Core Model To Validate
@@ -18,7 +18,7 @@ The early hypothesis used a simple marketplace formula:
 
 **Supply (providers) + Demand (users) + Platform fee**
 
-### Supply: Masters of Craft, Land, and Knowledge
+### Supply: Masters of Craft, Land and Knowledge
 
 Examples of supply-side profiles:
 
@@ -50,7 +50,7 @@ Three macro trends support the category.
 
 ### 1. Experiential learning demand
 
-Some learners are seeking longer, more grounded forms of education through craft, land, and place. This should be tested through interviews and pilot applications, not assumed from tourism trends.
+Some learners may be seeking longer, more grounded forms of education through craft, land and place. Interviews and pilot applications should test that demand directly.
 
 ### 2. Cultural Preservation
 
@@ -77,7 +77,7 @@ This aligns with village economies and multi-day or multi-week engagements (work
 
 ### Step 1: Onboard Masters
 
-The platform recruits artisans, farmers, builders, and craftspeople. Each master gets a profile.
+The platform recruits artisans, farmers, builders and craftspeople. Each master gets a profile.
 
 **Example profile:**
 
@@ -91,7 +91,7 @@ The platform recruits artisans, farmers, builders, and craftspeople. Each master
 
 ### Step 2: Students Discover
 
-Users browse by craft, location, and time commitment.
+Users browse by craft, location and time commitment.
 
 **Offering formats:**
 
@@ -136,10 +136,10 @@ Marketplace valuations often range **5×–10× revenue**, implying **$90M–$18
 
 Large marketplaces win through **supply lock-in**. Once the platform is known for masters of craft, network effects compound:
 
-- **Masters** join because students are there, reputation grows, and bookings increase.
+- **Masters** join because students are there, reputation grows and bookings increase.
 - **Students** come because that is where the masters are.
 
-This assumption remains unproven for Studium. It should not guide the pilot until practitioner trust and stewardship review are working.
+This assumption remains a later-stage hypothesis. The pilot should be guided first by practitioner trust and stewardship review.
 
 ## Platform Ecosystem: Learn, Discover, Steward
 
@@ -157,7 +157,7 @@ A traveler opens the app and discovers **Village: Paços de Gaiolo**, seeing:
 - Native reforestation project
 - Vineyard harvest
 
-They can learn a craft, volunteer, and plant native species—**deep cultural travel**, not a single transactional booking.
+They can learn a craft, volunteer and plant native species through a deeper, relationship-based form of cultural travel.
 
 ## Brand Direction
 
@@ -182,11 +182,11 @@ Relevant founder interests and geography for an initial pilot:
 - Land stewardship and rural communities
 - Mentorship models
 
-**Pilot geography:** Portugal, Europe, and the U.S. as complementary launch corridors; **Southern Europe** as the recommended first vertical (see below).
+**Pilot geography:** Portugal, Europe and the U.S. as complementary launch corridors; **Southern Europe** as the recommended first vertical (see below).
 
 ## Startup Strategy: Start Narrow
 
-Launch with **one vertical**, not the full ecosystem at once.
+Launch with **one vertical** before expanding the ecosystem.
 
 **Recommended first vertical:** Traditional crafts marketplace in **Southern Europe**
 
@@ -197,11 +197,11 @@ Launch with **one vertical**, not the full ecosystem at once.
 | Spain | Tourism + regional crafts |
 | France | Heritage crafts and slow-travel demand |
 
-These regions combine **aging artisans**, **tourism demand**, and **strong craft traditions**—supply urgency plus paying demand.
+These regions combine **aging artisans**, **tourism demand** and **strong craft traditions**—supply urgency plus paying demand.
 
-## Long-Term Vision
+## Long-Term Hypothesis
 
-Beyond transactions, the platform can become a **global registry of living masters**—a digital archive of crafts, ecological knowledge, and land stewardship that is economically viable and culturally meaningful.
+Earlier strategy notes imagined a broad digital archive of craft, ecological knowledge and land stewardship. Treat that as an internal long-term hypothesis only; Phase III work is limited to the Northern Portugal pilot, governance, consent and archive controls.
 
 ## Strategic Focus (Launch Decision)
 

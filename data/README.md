@@ -5,6 +5,13 @@
 | File | Description |
 |------|-------------|
 | **`studium_atlas_master.csv`** | **Normalized atlas** — 266 unique nodes, canonical columns (Phase II) |
+| `studium_risk_register.csv` | Phase III risk register and failure monitoring seed data |
+| `studium_consent_schema.csv` | Consent record fields, allowed values and publication safety notes |
+| `studium_archive_schema.csv` | Archive metadata fields, access tiers and data sovereignty controls |
+| `studium_partner_targets.csv` | Internal partner target categories and outreach status fields |
+| `studium_advisor_candidates.csv` | Advisor seat planning and authority scope fields |
+| `studium_institutional_comparisons.csv` | Institutional comparison and failure-pattern reference data |
+| `studium_operational_checklists.csv` | Governance, consent, archive, fieldwork, student and technology readiness gates |
 
 ## Source files (archive)
 

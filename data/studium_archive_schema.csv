@@ -1,0 +1,21 @@
+field_name,required,field_type,allowed_values,purpose,public_safe,notes
+archive_id,yes,string,,Unique archive item identifier,no,Use stable non-personal IDs
+working_title,yes,string,,Internal title or label,conditional,May need redaction
+material_type,yes,enum,audio|video|photo|transcript|field_notes|profile_draft|metadata|release_form,Classifies archive item,no,
+relationship_status,yes,enum,candidate|contacted|consented|documented|reviewed|approved_public|withdrawn,Tracks relationship lifecycle,no,
+practitioner_id,no,string,,Links to practitioner record,no,Do not expose unpublished identities
+steward_id,no,string,,Links to steward review record,no,
+consent_id,yes,string,,Links archive item to consent record,no,Required before use
+sensitivity,yes,enum,low|medium|high,Determines review depth,conditional,
+access_tier,yes,enum,public|community|practitioner_only|internal_restricted|sealed|withdrawn,Controls access,no,Restricted by default
+place_region,yes,string,,Broad geography,conditional,Northern Portugal for pilot
+place_sub_region,no,string,Douro|Minho|Serra da Estrela|Tras-os-Montes|Other,Sub-region if approved,conditional,
+location_precision,yes,enum,none|region|sub_region|town|exact_site,Defines location precision,no,Exact site requires approval
+allowed_uses,yes,string,internal_review|archive_storage|practitioner_copy|community_review|public_profile|public_excerpt|education,Allowed uses,no,
+prohibited_uses,yes,string,ai_training|commercial_reuse|public_location|third_party_licensing|student_recording|social_media,Prohibited uses,no,
+review_status,yes,enum,not_reviewed|participant_review|steward_review|approved|restricted|withdrawn,Review stage,no,
+review_date,yes,date,YYYY-MM-DD,Next review date,no,
+withdrawal_status,yes,enum,none_requested|restriction_requested|withdrawn|deleted,Withdrawal state,no,
+storage_location,yes,string,,Secure storage pointer,no,Do not use public URLs for restricted material
+public_summary,no,string,,Approved public summary only,yes,Must be separately approved
+metadata_notes,no,string,,Internal archive notes,no,Keep sensitive notes out of public files

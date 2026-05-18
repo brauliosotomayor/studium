@@ -1,0 +1,20 @@
+field_name,required,field_type,allowed_values,purpose,public_safe,notes
+consent_id,yes,string,,Unique consent record identifier,no,Use stable non-personal IDs
+record_status,yes,enum,draft|active|restricted|withdrawn|expired,Tracks whether consent can be relied on,no,Do not publish status for named people
+participant_role,yes,enum,practitioner|student|community_steward|land_steward|advisor|documentarian,Defines who granted or is subject to consent,no,
+participant_display_name,no,string,,Approved public name if any,conditional,Leave blank until public name approved
+related_archive_ids,no,string,,Links consent to archive records,no,Pipe-separated IDs if needed
+material_types,yes,string,audio|video|photo|transcript|field_notes|profile|location|student_media,Materials covered by consent,no,
+approved_uses,yes,string,internal_review|archive_storage|practitioner_copy|community_review|public_profile|public_excerpt|education,Uses explicitly approved,no,
+prohibited_uses,yes,string,ai_training|commercial_reuse|student_recording|public_location|third_party_licensing|social_media,Uses explicitly prohibited,no,
+access_tier,yes,enum,public|community|practitioner_only|internal_restricted|sealed|withdrawn,Default access tier,no,Restricted unless approved
+location_precision_allowed,yes,enum,none|region|sub_region|town|exact_site,Controls place display,conditional,Exact site requires site consent
+media_review_required,yes,boolean,true|false,Whether media must be reviewed before use,no,
+steward_review_required,yes,boolean,true|false,Whether steward review is required,no,Required for Medium and High sensitivity
+compensation_terms,no,string,,Payment or reciprocity summary,no,Do not include bank details
+withdrawal_terms,yes,string,,How participant can restrict withdraw or delete material,no,
+consent_date,yes,date,YYYY-MM-DD,Date consent granted,no,
+review_date,yes,date,YYYY-MM-DD,Next review date,no,
+expiration_date,no,date,YYYY-MM-DD,Optional expiration,no,
+consent_evidence_location,yes,string,,Pointer to secure signed form or notes,no,Do not store signatures in repo
+notes_internal,no,string,,Restricted operational notes,no,Never publish raw notes

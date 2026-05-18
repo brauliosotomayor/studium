@@ -1,0 +1,9 @@
+partner_id,lane,priority,partner_category,geography,status,relationship_owner,possible_role,evidence_needed,next_step,public_claim_allowed,notes
+P-001,D,P1,Local craft school,Northern Portugal,candidate,Founder,Practitioner referral and field context,Named contact and consent to discuss,Identify candidate institutions,no,Category placeholder only
+P-002,D,P1,Rural development organization,Northern Portugal,candidate,Founder,Local coordination and reciprocity review,Named contact and scope,Map organizations by sub-region,no,Do not imply partnership
+P-003,D,P1,Cultural heritage group,Northern Portugal,candidate,Founder,Documentation ethics and heritage context,Review conversation,Prepare careful outreach brief,no,
+P-004,D,P1,Architecture or design program,Portugal,candidate,Founder,Future student screening or seminar partner,Advisor or faculty interest,Hold until governance ready,no,
+P-005,D,P1,Ecological restoration group,Northern Portugal,candidate,Founder,Land stewardship review and site limits,Local steward contact,Identify groups after pilot sub-region,no,
+P-006,D,P1,Municipal cultural office,Northern Portugal,candidate,Founder,Local legitimacy and public context,Appropriate official channel,Defer until pilot scope is clear,no,
+P-007,D,P1,Community archive advisor,Portugal or remote,candidate,Archive steward,Archive access and metadata review,Accepted advisor role,Shortlist candidates,no,
+P-008,D,P1,Fiscal sponsor,US or EU,candidate,Founder,Grant administration and compliance,Eligibility and fee review,Compare sponsor options,no,

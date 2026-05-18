@@ -1,0 +1,9 @@
+comparison_id,lane,priority,reference_institution_or_model,comparison_category,useful_lesson,failure_risk,studium_guardrail,public_use
+IC-001,K,P1,Bauhaus,Workshop school,Workshop learning can connect craft design and practice,Institutional myth can exceed actual practice,Keep claims tied to pilot evidence,internal_only
+IC-002,K,P1,Black Mountain College,Experimental school,Small communities can create deep learning,Financial fragility and governance instability,Do not program beyond funding and operating roles,internal_only
+IC-003,K,P1,Highlander Folk School,Community education,Education can serve long-term community relationships,Political and institutional vulnerability,Clarify mission legal posture and partner protection,internal_only
+IC-004,K,P1,Folk schools,Residential craft education,Short immersive learning can fit place-based pedagogy,Tourism drift and shallow participation,Screen students and limit cohort size,internal_only
+IC-005,K,P1,Craft schools and ateliers,Master-led instruction,Transmission depends on teacher pace and standards,Overbooking and teacher exhaustion,Steward capacity limits,internal_only
+IC-006,K,P1,Community archives,Archive governance,Local control protects context and sensitive knowledge,Open access can expose restricted material,Restricted access default,internal_only
+IC-007,K,P1,Mukurtu-style archives,Protocol-based archive,Cultural protocols can govern digital access,Tool adoption without governance,Governance and consent before implementation,internal_only
+IC-008,K,P1,Local heritage nonprofits,Place-based institution,Local legitimacy matters for fieldwork,Donor-friendly mission drift,Mission-lock and funding review,internal_only

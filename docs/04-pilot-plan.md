@@ -2,7 +2,7 @@
 
 ## Executive summary
 
-The first year of Studium is a proof-of-concept, not a scale play. Northern Portugal is the proposed pilot region: strong craft traditions, rural landscapes, cultural depth, travel access, and existing networks—without the saturation of major tourist zones. The pilot targets **10 founding masters**, **40–60 students**, and a minimal app (map, profiles, listings, applications, booking). Success means participation, completed apprenticeships, documented stories, and one or two institutional partnerships—not thousands of users.
+The first year of Studium is a proof-of-concept focused on field validation. Northern Portugal is the proposed pilot region: strong craft traditions, rural landscapes, cultural depth, travel access and existing networks, with space for careful relationship-building. The pilot targets **10 founding masters**, **40–60 students** and a minimal app (map, profiles, listings, applications, booking). Success means participation, completed apprenticeships, documented stories and one or two institutional partnerships.
 
 ---
 
@@ -41,13 +41,13 @@ The first region should offer:
 | Serra da Estrela | Mountain villages, land stewardship |
 | Trás-os-Montes | Artisans, ecological knowledge, small villages |
 
-These areas already have artisans, agricultural traditions, ecological knowledge, and village-scale communities—and are **not** saturated tourist zones.
+These areas already have artisans, agricultural traditions, ecological knowledge and village-scale communities with room for careful fieldwork.
 
 ### Pilot narrative
 
-> “The first network of living masters in Northern Portugal.”
+> “A small Northern Portugal pilot for consent-based apprenticeship and documentation.”
 
-This gives journalists, institutions, and students a concrete, place-based story.
+This gives advisors, practitioners and future partners a concrete, place-based frame without implying that a network already exists.
 
 ---
 
@@ -114,7 +114,7 @@ Potential partners (e.g. UNESCO, heritage groups) often seek apprenticeship prog
 ### First students (target: 40–60 in year one)
 
 - **3–6 students** per experience to keep groups intimate
-- Quality and depth over volume; no need for thousands
+- Quality and depth over volume; small cohorts first
 
 ### How demand is generated
 
@@ -192,7 +192,7 @@ If these are met, the platform has **real roots** for expansion.
 
 5. **Application and selection:** Criteria for student acceptance; balance between openness and intimate group quality.
 
-6. **Booking and payments:** Pricing model, deposits, cancellation policy, and liability for rural/workshop settings.
+6. **Booking and payments:** Pricing model, deposits, cancellation policy and liability for rural/workshop settings.
 
 7. **Documentation ownership:** Who produces film/interviews—Studium, masters, or students—and what license applies to archive content?
 

@@ -1,0 +1,19 @@
+checklist_id,lane,priority,checklist_name,step_order,check_item,owner,evidence_required,gate_result
+CL-001,A,P0,Governance readiness,1,Advisor roles drafted,Founder,Advisor role letter draft,required_before_public_advisor_claim
+CL-001,A,P0,Governance readiness,2,Decision rights documented,Governance steward,Governance decision matrix,required_before_fieldwork
+CL-001,A,P0,Governance readiness,3,Legal path compared,Founder,Entity path memo,required_before_paid_programming
+CL-002,B,P0,Consent readiness,1,Consent brief drafted,Founder,Plain-language consent document,required_before_interview
+CL-002,B,P0,Consent readiness,2,Media permissions defined,Archive steward,Media consent terms,required_before_photography
+CL-002,B,P0,Consent readiness,3,Withdrawal process documented,Archive steward,Withdrawal procedure,required_before_archive_use
+CL-003,C,P0,Archive readiness,1,Access tiers defined,Archive steward,Archive schema,required_before_storage
+CL-003,C,P0,Archive readiness,2,Restricted storage selected,Archive steward,Storage procedure,required_before_field_material
+CL-003,C,P0,Archive readiness,3,Public summary separated from raw record,Archive steward,Archive workflow,required_before_publication
+CL-004,D,P0,Fieldwork readiness,1,Sub-region priority selected,Founder,Pilot decision note,required_before_outreach
+CL-004,D,P0,Fieldwork readiness,2,Practitioner outreach path documented,Founder,Relationship brief,required_before_contact
+CL-004,D,P0,Fieldwork readiness,3,Compensation terms drafted,Founder,Compensation model,required_before_visit
+CL-005,E,P1,Student readiness,1,Student screening drafted,Founder,Application criteria,required_before_recruitment
+CL-005,E,P1,Student readiness,2,Safety and conduct rules drafted,Legal advisor,Participation agreement,required_before_study_visit
+CL-005,E,P1,Student readiness,3,Practitioner capacity approved,Practitioner steward,Capacity note,required_before_student_access
+CL-006,J,P1,Technology gate,1,No app build before governance approved,Founder,Governance readiness record,blocks_app_build
+CL-006,J,P1,Technology gate,2,No public map before location consent,Archive steward,Location consent record,blocks_public_map
+CL-006,J,P1,Technology gate,3,No booking flow before legal review,Legal advisor,Legal review note,blocks_marketplace
