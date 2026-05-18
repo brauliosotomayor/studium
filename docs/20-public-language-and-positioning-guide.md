@@ -21,7 +21,7 @@ Studium may be described as:
 
 Expanded version:
 
-> Studium is preparing a small Northern Portugal pilot to test whether craftspeople, land stewards and serious learners can participate in consent-based field documentation and apprenticeship structures.
+> Studium is preparing a small Northern Portugal pilot to test whether craftspeople, land stewards and high-engagement learners can participate in consent-based field documentation and apprenticeship structures.
 
 ---
 
@@ -32,10 +32,10 @@ Expanded version:
 | Stage | Early-stage pilot, pre-fieldwork prototype, research preparation |
 | Geography | Northern Portugal pilot scope |
 | Activity | Governance design, consent workflow, archive planning, practitioner outreach preparation |
-| Values | Consent, careful documentation, practitioner compensation, community review |
+| Values | Consent, careful documentation, practitioner compensation, local review |
 | Product | App and marketplace deferred until governance and field validation |
 | Atlas | Internal research dataset requiring validation |
-| Success target | 3 documented practitioner relationships, tested stewardship review, measured apprenticeship model |
+| Success target | 3 documented practitioner relationships, tested steward review, measured apprenticeship model |
 
 ---
 
@@ -58,13 +58,13 @@ Expanded version:
 Do not say or imply:
 
 - Studium has active practitioners, stewards or partners unless verified;
-- Studium represents a region, lineage, culture or community;
+- Studium represents a region, lineage, culture or named practitioner group;
 - global corridors are operational;
 - the atlas is authoritative;
 - student applications are open before policies exist;
 - an app, marketplace or booking system is available;
 - practitioners can be discovered, ranked or booked;
-- sensitive, Indigenous or community knowledge is available to access;
+- sensitive, Indigenous or community-held knowledge is available to access;
 - advisors or institutions endorse Studium before written confirmation.
 
 ---
@@ -84,7 +84,32 @@ Avoid public language that is:
 - "discover secret places";
 - "top experiences" or ranking language.
 
-Use practical language: pilot, fieldwork, documentation, consent, practitioner, community review, archive, compensation and governance.
+Use practical language: pilot, fieldwork, documentation, consent, practitioner review, local review, archive, compensation and governance.
+
+---
+
+## Canonical terminology glossary
+
+| Avoid | Use instead | Reason |
+|-------|-------------|--------|
+| real | documented, verified, field-validated, implemented | Defines evidence state |
+| actual | documented, existing, verified, implemented | Removes conversational emphasis |
+| genuine | differentiated, operationally distinct, non-derivative | Avoids unverifiable authenticity claims |
+| legitimate | governed, legally constituted, community-authorized | Identifies authority basis |
+| authentic | place-rooted, lineage-based, historically continuous | Avoids tourism purity framing |
+| meaningful | relationship-based, reciprocal, long-duration | States observable relationship type |
+| important | high-priority, high-risk, culturally sensitive | Names priority or risk basis |
+| deep | immersive, field-based, multi-year | Defines duration or method |
+| serious | high-engagement, governance-critical, material | Removes informal weighting |
+| strong | well-defined, high-confidence, structurally resilient | Identifies evaluated quality |
+| weak | undefined, underdeveloped, unimplemented | Identifies missing support |
+| trusted | consent-based, community-reviewed, externally validated | Does not self-assert trust |
+| visionary | conceptual, strategic, speculative, long-horizon | Avoids founder mythology |
+| transformative | structural, long-term, multi-generational | Avoids unmeasured impact claims |
+| living knowledge | place-based practices, intergenerational craft transmission | Defines the documented subject |
+| stewardship | steward authority, archive custodianship, land-management responsibility | Identifies accountability |
+| community | named practitioner group, local governance body, participating residents | Identifies decision actor |
+| institution | pilot initiative, research initiative, pre-institutional project | Avoids overstating current maturity |
 
 ---
 

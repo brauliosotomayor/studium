@@ -1,8 +1,17 @@
 # First-Year Pilot Plan
 
+**Version:** Early exploratory draft · Phase II  
+**Status:** Archival / exploratory pilot draft  
+**Visibility:** Internal  
+**Canonical replacement:** `16-operational-pilot-plan.md`
+
+This document records an earlier first-year pilot concept. Use `16-operational-pilot-plan.md` for the current 24-month operational sequence, governance-first fieldwork gate and app-build restrictions.
+
+---
+
 ## Executive summary
 
-The first year of Studium is a proof-of-concept focused on field validation. Northern Portugal is the proposed pilot region: strong craft traditions, rural landscapes, cultural depth, travel access and existing networks, with space for careful relationship-building. The pilot targets **10 founding masters**, **40–60 students** and a minimal app (map, profiles, listings, applications, booking). Success means participation, completed apprenticeships, documented stories and one or two institutional partnerships.
+The first year of Studium is a proof-of-concept focused on field validation. Northern Portugal is the proposed pilot region: documented craft traditions, rural landscapes, cultural depth, travel access and existing networks, with space for careful relationship-building. This early draft targeted **10 founding masters**, **40–60 students** and a minimal product concept. Current authority has moved to the governance-first sequence in `16-operational-pilot-plan.md`.
 
 ---
 
@@ -11,8 +20,8 @@ The first year of Studium is a proof-of-concept focused on field validation. Nor
 The pilot must prove three things:
 
 1. **Masters are willing to participate**
-2. **Students are willing to commit to deep apprenticeships**
-3. **The experience is transformative enough that people tell others**
+2. **Students are willing to commit to immersive apprenticeships**
+3. **The experience produces documented referrals or return interest**
 
 If those three hold, growth can follow organically. Scale is explicitly out of scope for year one.
 
@@ -24,8 +33,8 @@ If those three hold, growth can follow organically. Scale is explicitly out of s
 
 The first region should offer:
 
-- Strong craft traditions
-- Beautiful rural landscapes
+- Documented craft traditions
+- Rural landscapes suitable for field visits
 - Cultural depth
 - Travel accessibility
 - Personal network for launch and trust-building
@@ -38,10 +47,10 @@ The first region should offer:
 |------|--------|
 | Douro Valley | Terraced vineyards, harvest-season experiences |
 | Minho | Craft and agricultural traditions |
-| Serra da Estrela | Mountain villages, land stewardship |
+| Serra da Estrela | Mountain villages, land-management practices |
 | Trás-os-Montes | Artisans, ecological knowledge, small villages |
 
-These areas already have artisans, agricultural traditions, ecological knowledge and village-scale communities with room for careful fieldwork.
+These areas already have artisans, agricultural traditions, ecological knowledge and village-scale settlements with room for careful fieldwork.
 
 ### Pilot narrative
 
@@ -82,8 +91,8 @@ Keep offerings **simple and immersive**.
 | Experience | Location | Duration | Students learn |
 |------------|----------|----------|----------------|
 | **Dry stone walling** | Mountain village | 4 days | Stone selection, foundation building, traditional techniques |
-| **Vineyard stewardship** | Douro terrace vineyard | 5 days (harvest) | Soil, pruning, harvesting, fermentation basics |
-| **Forest stewardship** | Reforestation project | 4 days | Native species, water retention, fire-resilient planting |
+| **Vineyard management** | Douro terrace vineyard | 5 days (harvest) | Soil, pruning, harvesting, fermentation basics |
+| **Forest land-management** | Reforestation project | 4 days | Native species, water retention, fire-resilient planting |
 | **Ceramic studio** | Artisan workshop | 3 days | Clay preparation, wheel techniques, kiln firing |
 
 ### Documentation (supply-side output)
@@ -97,7 +106,7 @@ Every apprenticeship should be documented:
 
 Over time this becomes the **knowledge archive** and attracts future students through storytelling.
 
-### Institutional seeds
+### Partner seeds
 
 Build relationships early (quietly) with:
 
@@ -120,16 +129,18 @@ Potential partners (e.g. UNESCO, heritage groups) often seek apprenticeship prog
 
 - Map and master stories (discovery)
 - Documented apprenticeship outcomes (social proof)
-- Pilot narrative and press/institutional interest
-- Word of mouth from transformative experiences (core success signal)
+- Pilot narrative and advisor or partner interest
+- Word of mouth from documented referrals or return interest (core success signal)
 
 ---
 
-## Product MVP
+## Earlier product concept
 
-### Map experience (even in pilot)
+This section records an earlier product concept. It is not current implementation scope. Use `19-technology-and-data-architecture.md` for the current technology gate.
 
-On open, users see **~10 glowing points** in Northern Portugal—one per master.
+### Map experience (conceptual)
+
+An earlier interface concept imagined a small set of reviewed Northern Portugal points, one per approved practitioner relationship.
 
 **Tap a point** to see:
 
@@ -137,7 +148,7 @@ On open, users see **~10 glowing points** in Northern Portugal—one per master.
 - Their craft
 - Available apprenticeships
 
-Design goal: simple, beautiful, meaningful.
+Design goal: simple, place-rooted and reviewable.
 
 ### App scope (first version)
 
@@ -147,14 +158,14 @@ Design goal: simple, beautiful, meaningful.
 - Master profiles
 - Apprenticeship listings
 - Application forms
-- Secure booking
+- Payment handling after legal review
 
 **Exclude for v1:**
 
 - Social media features
-- Complicated tech beyond core flows
+- Technology beyond governance, consent, archive and fieldwork support
 
-**Principle:** The community matters more than the software.
+**Principle:** Governance, consent and archive controls matter more than software.
 
 ---
 
@@ -166,15 +177,15 @@ Design goal: simple, beautiful, meaningful.
 |--------|--------|
 | Participating masters | 10 |
 | Students completing apprenticeships | ~50 |
-| Documented stories | Meaningful corpus (photos, film, interviews, reflections) |
-| Institutional partnerships | 1–2 emerging |
+| Documented stories | Reviewed corpus (photos, film, interviews, reflections) |
+| Partner relationships | 1–2 under review |
 
-If these are met, the platform has **real roots** for expansion.
+If these are met, the pilot has documented evidence for a continue / pivot / pause decision.
 
 ### Leading indicators (during the year)
 
 - Master signup and retention in the founding circle
-- Application volume and completion rate per listing
+- Application volume and completion rate per proposed learning format
 - Student referrals and unsolicited testimonials
 - Quality and volume of documentation per apprenticeship
 
@@ -192,8 +203,8 @@ If these are met, the platform has **real roots** for expansion.
 
 5. **Application and selection:** Criteria for student acceptance; balance between openness and intimate group quality.
 
-6. **Booking and payments:** Pricing model, deposits, cancellation policy and liability for rural/workshop settings.
+6. **Payments and liability:** Pricing model, deposits, cancellation policy and liability for rural/workshop settings.
 
 7. **Documentation ownership:** Who produces film/interviews—Studium, masters, or students—and what license applies to archive content?
 
-8. **Institutional partnership priority:** Which craft school, architecture program, or ecological institute to approach first?
+8. **Partner outreach priority:** Which craft school, architecture program, or ecological institute to approach first?

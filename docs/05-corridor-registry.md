@@ -1,14 +1,17 @@
 # Canonical Corridor Registry
 
 **Version:** Phase II · 2026-05-17  
-**Status:** Source of truth for atlas geography  
+**Status:** Internal atlas registry; not current public scope  
+**Visibility:** Internal only  
 **Dataset:** `data/studium_atlas_master.csv` (266 nodes)
+
+This file is a speculative planning registry for atlas geography. It is not a validated field network, public expansion plan or claim of active institutional scope. Public materials should lead with the Northern Portugal pilot and the canonical operating spine in `00-overview.md`.
 
 ---
 
 ## Purpose
 
-Corridors are **knowledge transmission geographies**, not tourist regions. Each corridor groups place-rooted crafts and land stewardship practices that share ecological, cultural, or historical continuity. The map displays corridors as **living systems**, not destination pins.
+Corridors are **knowledge transmission geographies**. Each corridor groups place-rooted crafts and land stewardship practices that share ecological, cultural, or historical continuity. The map should display corridors as living systems with field validation status.
 
 ---
 
@@ -16,11 +19,11 @@ Corridors are **knowledge transmission geographies**, not tourist regions. Each 
 
 | Phase | Scale | Role |
 |-------|-------|------|
-| **3** | Founder signal | Proof of transmission; first illuminated nodes |
+| **3** | Founder signal | Proof of transmission; first documented nodes |
 | **5** | Regional ring | First complete geographic cluster |
 | **13** | Internal planning set | Candidate corridor structure for later review |
 | **50** | Operational dataset | Only after field validation and governance testing |
-| **200** | Long-term research archive | Not public positioning at the current stage |
+| **200** | Long-term research archive | Deferred until field validation and governance maturity |
 
 Corridors expand in **depth** (nodes per corridor) before **breadth** (new corridors).
 
@@ -33,7 +36,7 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 | Field | Value |
 |-------|--------|
 | **Geographic span** | Portugal → Spain → Southern France |
-| **Philosophy** | Mediterranean land knowledge meeting centuries-old craft lineages; terraced agriculture, cork forests, stone, and viticulture as interlinked systems |
+| **Philosophy** | Mediterranean land knowledge meeting centuries-old craft lineages; terraced agriculture, cork forests, stone and viticulture as interlinked systems |
 | **Primary knowledge systems** | Vineyard stewardship, dry stone walling, cork harvesting, ceramics, silversmithing |
 | **Archetypes** | Land Stewardship, Food & Fermentation, Architecture & Building Craft, Material Craft |
 | **Sensitivity** | Medium (founding anchor: Douro; regenerative land partnerships) |
@@ -46,7 +49,7 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 | Field | Value |
 |-------|--------|
 | **Geographic span** | Florence → Carrara → Venice/Murano → Cremona → Tuscany |
-| **Philosophy** | Guild-descended mastery; material intelligence in stone, glass, textile, and instrument |
+| **Philosophy** | Guild-descended mastery; material intelligence in stone, glass, textile and instrument |
 | **Primary knowledge systems** | Textile weaving, marble carving, Murano glass, violin making, leather craft, goldsmithing |
 | **Archetypes** | Material Craft, Textile & Fiber Craft, Instrument & Music Craft |
 | **Sensitivity** | Low–Medium (established artisan economies; steward review for workshop access) |
@@ -59,7 +62,7 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 | Field | Value |
 |-------|--------|
 | **Geographic span** | Fez → Marrakech → Atlas Mountains → Essaouira |
-| **Philosophy** | Building craft embedded in cultural, religious, and local construction traditions |
+| **Philosophy** | Building craft embedded in cultural, religious and local construction traditions |
 | **Primary knowledge systems** | Zellige tile, tadelakt plaster, Berber weaving, pastoral stewardship, wood carving |
 | **Archetypes** | Architecture & Building Craft, Textile & Fiber Craft, Land Stewardship, Material Craft |
 | **Sensitivity** | Medium–High (religious craft contexts; steward-led access) |
@@ -72,7 +75,7 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 | Field | Value |
 |-------|--------|
 | **Geographic span** | Georgia → Armenia → Eastern Türkiye |
-| **Philosophy** | Fermentation as civilization technology; qvevri, copper, carpet, and vineyard as one lineage |
+| **Philosophy** | Fermentation as civilization technology; qvevri, copper, carpet and vineyard as one lineage |
 | **Primary knowledge systems** | Qvevri winemaking, clay vessel craft, vineyard stewardship, copper smithing, carpet weaving |
 | **Archetypes** | Food & Fermentation, Material Craft, Land Stewardship, Textile & Fiber Craft |
 | **Sensitivity** | Medium |
@@ -98,7 +101,7 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 | Field | Value |
 |-------|--------|
 | **Geographic span** | Jaipur → Gujarat → Kutch → Kashmir → Rajasthan |
-| **Philosophy** | Textile as encoded memory; dye, weave, and miniature painting as interlinked knowledge |
+| **Philosophy** | Textile as encoded memory; dye, weave and miniature painting as interlinked knowledge |
 | **Primary knowledge systems** | Block printing, bandhani, embroidery, shawl weaving, miniature painting |
 | **Archetypes** | Textile & Fiber Craft, Material Craft |
 | **Sensitivity** | Medium |
@@ -111,7 +114,7 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 | Field | Value |
 |-------|--------|
 | **Geographic span** | Yogyakarta → Bali → Northern Thailand → Laos → Java |
-| **Philosophy** | Place-bound material culture; temple carving, batik, and gamelan require careful partner review |
+| **Philosophy** | Place-bound material culture; temple carving, batik and gamelan require careful partner review |
 | **Primary knowledge systems** | Batik dyeing, temple carving, umbrella craft, silk weaving, gamelan instrument making |
 | **Archetypes** | Textile & Fiber Craft, Material Craft, Architecture & Building Craft, Instrument & Music Craft |
 | **Sensitivity** | Medium–High (temple and ritual contexts) |
@@ -124,7 +127,7 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 | Field | Value |
 |-------|--------|
 | **Geographic span** | Peru → Bolivia → Ecuador → Colombia highlands/Amazon edge |
-| **Philosophy** | Vertical ecology; terrace agriculture, textile encoding, and indigenous land ethics |
+| **Philosophy** | Vertical ecology; terrace agriculture, textile encoding and indigenous land ethics |
 | **Primary knowledge systems** | Alpaca weaving, terraced agriculture, reed boat building, ikat, herbal medicine, agroforestry |
 | **Archetypes** | Textile & Fiber Craft, Land Stewardship, Architecture & Building Craft, Material Craft |
 | **Sensitivity** | High (indigenous knowledge; community consent required) |
@@ -150,11 +153,11 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 | Field | Value |
 |-------|--------|
 | **Geographic span** | Southwest USA → Pacific Northwest → Great Plains → Appalachia → Atlantic coast |
-| **Philosophy** | Place-based survival knowledge; indigenous stewardship, arid-land hydrology, and intergenerational craft |
+| **Philosophy** | Place-based survival knowledge; indigenous stewardship, arid-land hydrology and intergenerational craft |
 | **Primary knowledge systems** | Adobe architecture, desert water harvesting, cultural burning, canoe carving, bison stewardship, quilting |
 | **Archetypes** | Land Stewardship, Architecture & Building Craft, Textile & Fiber Craft, Maritime & Watercraft |
 | **Sensitivity** | High (indigenous knowledge; federal trust lands; media restrictions) |
-| **Founding nodes** | New Mexico, Arizona, California, Washington, Montana, Gee's Bend, and 50-state USA hub nodes |
+| **Founding nodes** | New Mexico, Arizona, California, Washington, Montana, Gee's Bend and 50-state USA hub nodes |
 | **Expansion potential** | Consolidated from USA state-level hubs into unified corridor taxonomy |
 | **Atlas nodes (current)** | 92 |
 
@@ -189,7 +192,7 @@ Corridors expand in **depth** (nodes per corridor) before **breadth** (new corri
 
 1. **Format:** `[Region/Culture] + [Knowledge domain] + Corridor`  
 2. **Sub-clusters** (e.g. Tuscany, Kansai) roll up to parent corridor in `studium_atlas_master.csv`; sub-cluster preserved in `Notes`.  
-3. **No country-only corridors** unless geographically singular (exception: large unified corridors with internal hubs).  
+3. **Corridor specificity:** use regional or cultural geographies unless a country-scale frame is the clearest research unit.  
 4. **Renames** require registry update before CSV bulk replace.
 
 ---

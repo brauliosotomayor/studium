@@ -58,7 +58,7 @@ Explore an associacao sem fins lucrativos when the pilot has:
 - data, consent and archive policies;
 - sustainable administrative capacity.
 
-Do not create an association only for appearance. It should have real governance and local operating need.
+Do not create an association only for appearance. It should have implemented governance and local operating need.
 
 ---
 

@@ -80,7 +80,7 @@ Continue when:
 
 Pivot when:
 
-- a sub-region lacks trusted access;
+- a sub-region lacks consent-based access;
 - compensation assumptions are wrong;
 - advisors identify a better legal path;
 - fieldwork reveals student programming is premature;

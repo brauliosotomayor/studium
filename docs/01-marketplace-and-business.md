@@ -1,6 +1,8 @@
 # Business Hypothesis (Archival)
 
 **Status:** Early strategic hypothesis, superseded for public positioning by the pilot-stage framing in `00-overview.md`, `04-pilot-plan.md` and `08-stewardship-framework.md`.
+**Visibility:** Internal archival reference  
+**Canonical replacement:** Use `18-economic-and-funding-model.md` for current funding and compensation logic.
 
 Use this document as an internal business hypothesis. It records an earlier exploration that requires fieldwork, practitioner consent and partner review before public economic claims.
 
@@ -8,7 +10,7 @@ Use this document as an internal business hypothesis. It records an earlier expl
 
 - The current public position is a **pilot stewardship network** at prototype stage.
 - Business assumptions here are exploratory and should be treated as internal hypotheses.
-- The next validation step is three real practitioner relationships, consented documentation and one measured apprenticeship model.
+- The next validation step is three documented practitioner relationships, consented documentation and one measured apprenticeship model.
 - Any future economic model must clarify compensation, fees, cancellation policy, liability and reciprocity before public recruitment.
 - Recommended launch remains narrow: one region and one or two craft / stewardship focuses before expansion.
 
@@ -161,7 +163,7 @@ They can learn a craft, volunteer and plant native species through a deeper, rel
 
 ## Brand Direction
 
-Strong platforms use short, memorable names. Candidate directions include:
+High-recognition platforms use short, memorable names. Candidate directions include:
 
 - Guild
 - Roots
@@ -192,12 +194,12 @@ Launch with **one vertical** before expanding the ecosystem.
 
 | Country | Rationale |
 |---------|-----------|
-| Portugal | Strong craft and rural tourism |
-| Italy | Deep artisan traditions (e.g. Carrara stonework) |
+| Portugal | Documented craft traditions and rural tourism |
+| Italy | Long-duration artisan traditions (e.g. Carrara stonework) |
 | Spain | Tourism + regional crafts |
 | France | Heritage crafts and slow-travel demand |
 
-These regions combine **aging artisans**, **tourism demand** and **strong craft traditions**—supply urgency plus paying demand.
+These regions combine **aging artisans**, **tourism demand** and **documented craft traditions**—supply urgency plus paying demand.
 
 ## Long-Term Hypothesis
 

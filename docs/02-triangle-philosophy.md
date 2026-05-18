@@ -1,8 +1,14 @@
 # Triangle Philosophy: Student · Master · Steward
 
+**Status:** Exploratory narrative model  
+**Visibility:** Internal reference  
+**Canonical authority:** Use `11-governance-blueprint.md`, `12-stewardship-operating-model.md` and `13-consent-and-documentation-ethics.md` for operating authority.
+
+This document explains the Student / Master / Steward conceptual model. It is not public positioning, legal structure or fieldwork policy.
+
 ## Executive Summary
 
-Studium’s philosophical architecture rests on a simple triangle—**Student**, **Master**, and **Steward**—that models how knowledge is sought, transmitted, and guarded across generations and place. Roles are not rigid categories; people move through them over time, and the platform expresses that cycle in profiles, symbols, and map-based discovery. The guiding principle: connect students with masters and stewards so that knowledge rooted in place continues to live.
+Studium’s philosophical architecture rests on a simple triangle—**Student**, **Master** and **Steward**—that models how knowledge is sought, transmitted and guarded across generations and place. Roles can evolve over time and the platform expresses that cycle in profiles, symbols and map-based discovery. The guiding principle: connect students with masters and stewards so that knowledge rooted in place continues to live.
 
 ---
 
@@ -30,19 +36,19 @@ The triangle can serve as the platform’s core symbol.
 
 ### Historical parallels
 
-Enduring institutions are built around simple symbolic frameworks:
+Long-running education models often use simple role frameworks:
 
 - **Universities** — teacher, student, knowledge
 - **Guilds** — apprentice, journeyman, master
 - **Ecological thinking** — people, place, practice
 
-Studium merges **learning**, **mastery**, and **responsibility** into one cycle.
+Studium merges **learning**, **mastery** and **responsibility** into one cycle.
 
 ---
 
 ## The Three Roles
 
-Roles are fluid, not fixed. The platform allows people to occupy and move among them over time.
+Roles are fluid and can change over time. The platform allows people to occupy and move among them as relationships deepen.
 
 ### Student
 
@@ -54,7 +60,7 @@ Curious learners seeking knowledge.
 
 ### Master
 
-Practitioners who hold deep expertise.
+Practitioners who hold field-based expertise.
 
 **Examples:** stonemasons, ceramicists, regenerative farmers, violin makers.
 
@@ -98,15 +104,15 @@ Instead of generic user profiles, the platform highlights **role within the tria
 - Focus: Native forest restoration  
 - Location: Douro Valley  
 
-Profiles reinforce the philosophy: who you are in the cycle, what you practice, and where that knowledge is rooted.
+Profiles reinforce the philosophy: who you are in the cycle, what you practice and where that knowledge is rooted.
 
 ---
 
 ## Symbol and Branding
 
-The triangle is the platform icon: simple, timeless, three points for Student, Master, and Steward. At the center lies **knowledge transmitted through place**.
+The triangle is the platform icon: simple, timeless, three points for Student, Master and Steward. At the center lies **knowledge transmitted through place**.
 
-Strong brands represent ideas larger than the product. The triangle symbolizes the **cycle of knowledge**—an idea with depth beyond interface design.
+Clear public systems represent operational commitments beyond interface design. The triangle remains an internal model for the **cycle of knowledge**.
 
 ### Connection to Studium
 
@@ -126,20 +132,20 @@ Historically, *studium* meant a place devoted to learning. The full concept:
 
 > Knowledge survives when it is passed from master to student and protected by those who steward the land where it was born.
 
-This resonates with cultural preservation, ecological responsibility, and meaningful learning.
+This supports cultural preservation, ecological responsibility and relationship-based learning.
 
 **Guiding principle (one sentence)**
 
-> To test whether students, craftspeople, and stewards can participate in a small, consent-based apprenticeship and documentation model.
+> To test whether students, craftspeople and stewards can participate in a small, consent-based apprenticeship and documentation model.
 
 ---
 
 ## Map and Triangle Together
 
-Maps add a spatial dimension only after field relationships exist. In the pilot stage, map points should distinguish candidate data from verified practitioner relationships, consent status, and stewardship review.
+Maps add a spatial dimension only after field relationships exist. In the pilot stage, map points should distinguish candidate data from verified practitioner relationships, consent status and stewardship review.
 
 ---
 
 ## Modern Guild Framing
 
-Studium is not only an application. It is a **modern guild system for the world**: technology as infrastructure for transmission, mastery, and stewardship of knowledge tied to land and tradition.
+Studium can be understood as a pilot governance and documentation system: technology, when needed, supports transmission, mastery and steward authority for knowledge tied to land and tradition.

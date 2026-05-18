@@ -1,13 +1,15 @@
 # Founder Candidate Evaluation System
 
 **Version:** Phase II · 2026-05-17  
-**Status:** Scoring framework for atlas inclusion (not booking ratings)
+**Status:** Operational internal scorecard  
+**Visibility:** Internal  
+**Canonical context:** Use with `13-consent-and-documentation-ethics.md`, `16-operational-pilot-plan.md` and `17-risk-and-failure-analysis.md`.
 
 ---
 
 ## Purpose
 
-Evaluate **whether a practitioner should become an atlas node**—not whether they are “good enough” as a brand. Studium seeks **living archives**, not service providers.
+Evaluate whether a practitioner relationship is appropriate for the pilot, the dataset and eventual public documentation. Studium prioritizes lineages, teaching capacity and stewardship alignment over brand appeal.
 
 **Output:** `Candidate` → `Founding 13` → `Active` → `Archive (honored)` statuses in CSV.
 
@@ -19,11 +21,11 @@ Evaluate **whether a practitioner should become an atlas node**—not whether th
 |-----------|--------|-------------|
 | **Lineage depth** | 20 | Years of practice, named teachers, generational continuity |
 | **Ecological relevance** | 15 | Place-based systems; climate and land integration |
-| **Teaching capacity** | 15 | Ability and willingness to transmit (not just perform) |
-| **Continuity risk** | 15 | Urgency: knowledge endangered if node not supported |
+| **Teaching capacity** | 15 | Ability and willingness to transmit through practice |
+| **Continuity risk** | 15 | Urgency and support needed for knowledge continuity |
 | **Geographic importance** | 10 | Helps balance the pilot or future corridor dataset |
 | **Symbolic importance** | 10 | Founding 13 balance; represents underrepresented archetype |
-| **Accessibility** | 5 | Travel feasibility without tourism distortion |
+| **Accessibility** | 5 | Travel feasibility with low-pressure participation design |
 | **Stewardship alignment** | 10 | Steward partner available; anti-extraction fit |
 
 ---
@@ -46,7 +48,7 @@ Evaluate **whether a practitioner should become an atlas node**—not whether th
 | 13–15 | Land stewardship core to practice |
 | 8–12 | Craft integrated with local ecology |
 | 4–7 | Place-aware but craft-primary |
-| 0–3 | No meaningful land connection |
+| 0–3 | Limited land connection documented so far |
 
 ### Teaching capacity (0–15)
 
@@ -86,7 +88,7 @@ Evaluate **whether a practitioner should become an atlas node**—not whether th
 
 | Score | Indicator |
 |-------|-----------|
-| 5 | Reachable without resort infrastructure |
+| 5 | Reachable through simple, low-impact logistics |
 | 3 | Moderate access; steward supports logistics |
 | 0 | Access requires exploitative tourism chain |
 
@@ -96,7 +98,7 @@ Evaluate **whether a practitioner should become an atlas node**—not whether th
 |-------|-----------|
 | 9–10 | Steward partner committed; framework signed |
 | 5–8 | Steward identified; onboarding in progress |
-| 0–4 | No steward; High sensitivity without path |
+| 0–4 | Steward path still unresolved for High sensitivity |
 
 ---
 
@@ -109,7 +111,7 @@ Evaluate **whether a practitioner should become an atlas node**—not whether th
 | **55–69** | Hold — develop steward or teaching plan |
 | **<55** | Decline or revisit in 12 months |
 
-**Veto:** Any High sensitivity node without steward partner — automatic hold regardless of score.
+**Hold rule:** Any High sensitivity node needs a steward partner before advancement, regardless of score.
 
 ---
 
@@ -140,9 +142,9 @@ Within score band 85+, rank by:
 
 - Instant booking expectation  
 - Refusal of apprentice time commitment  
-- No community or steward contact  
+- Steward or local review contact unresolved  
 - Commoditized “experience” packaging  
-- Intellectual property hoarding with no transmission  
+- Intellectual property control blocks transmission  
 
 ---
 

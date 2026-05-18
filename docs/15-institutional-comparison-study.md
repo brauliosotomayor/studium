@@ -30,8 +30,8 @@ The goal is to learn from patterns: what protects mission, what fails under scal
 
 | Reference | Useful lesson | Failure risk to watch | Studium implication |
 |-----------|---------------|-----------------------|---------------------|
-| Bauhaus | Workshop-based learning can integrate craft, design and pedagogy | Institutional myth can outgrow actual workshop conditions | Keep pilot claims grounded in documented fieldwork |
-| Black Mountain College | Small experimental schools can produce strong learning through community and practice | Financial fragility and governance instability | Do not launch programs without funding and operating roles |
+| Bauhaus | Workshop-based learning can integrate craft, design and pedagogy | Institutional myth can outgrow documented workshop conditions | Keep pilot claims grounded in documented fieldwork |
+| Black Mountain College | Small experimental schools can produce high-engagement learning through shared practice | Financial fragility and governance instability | Do not launch programs without funding and operating roles |
 | Highlander Folk School | Education can serve community organizing and long-term relationships | Political pressure and institutional vulnerability | Clarify mission, legal posture and partner protection |
 | Folk schools | Short residential learning can support craft and place-based education | Tourism drift and shallow workshops | Screen students and define learning depth |
 | Craft schools / ateliers | Master-led instruction requires respect for pace and standards | Overbooking and teacher exhaustion | Capacity limits must be stewarded |

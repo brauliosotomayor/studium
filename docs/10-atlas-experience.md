@@ -1,15 +1,19 @@
 # Pilot Map & Discovery Logic
 
 **Version:** Remediated Phase II · 2026-05-17  
-**Status:** UX planning note; no app implementation yet
+**Status:** Deferred UX planning note before app implementation  
+**Visibility:** Internal  
+**Canonical gate:** Use `19-technology-and-data-architecture.md` before any app, map or public prototype work.
+
+This file is a future product reference. It does not authorize app, marketplace, public map or booking implementation before governance, consent and archive controls are tested.
 
 ---
 
 ## Design intent
 
-The first interface should support **field documentation and careful discovery**, not broad consumer browsing. The map should help a small team understand where relationships exist, what permissions apply, and what documentation is ready for review.
+The first interface should support **field documentation and careful discovery**. The map should help a small team understand where relationships exist, what permissions apply and what documentation is ready for review.
 
-Public-facing language should describe this as a **pilot map prototype**, not a completed atlas.
+Public-facing language should describe this as a **pilot map prototype** during field validation.
 
 ---
 
@@ -19,8 +23,8 @@ Public-facing language should describe this as a **pilot map prototype**, not a 
 |------|--------------------|
 | Show the current pilot area | Northern Portugal region card and research boundary |
 | Track practitioner relationships | Candidate / contacted / consented / documented statuses |
-| Record stewardship review | Steward contact, permission level, restrictions |
-| Avoid over-publication | Hide sensitive locations until approved |
+| Record steward review | Steward contact, permission level, restrictions |
+| Publication restraint | Hide sensitive locations until approved |
 | Support fieldwork | Interview checklist, photo permissions, archive notes |
 
 ---
@@ -31,10 +35,10 @@ Public-facing language should describe this as a **pilot map prototype**, not a 
 |-------|---------|-------------|
 | **Pilot region** | On | Northern Portugal research area |
 | **Practitioner status** | On | Candidate, contacted, consented, documented |
-| **Craft focus** | On | Practical categories such as vineyard stewardship, stone, cork, ceramics |
-| **Stewardship review** | On | Consent status, media limits, community partner |
+| **Craft focus** | On | Practical categories such as vineyard management, stone, cork, ceramics |
+| **Steward review** | On | Consent status, media limits, local review partner |
 | **Sensitivity** | On | Low / Medium / High review requirement |
-| **Archive readiness** | Off | Whether interview, photos, and permissions are publishable |
+| **Archive readiness** | Off | Whether interview, photos and permissions are publishable |
 
 ---
 
@@ -43,8 +47,8 @@ Public-facing language should describe this as a **pilot map prototype**, not a 
 | Level | View | Behavior |
 |-------|------|----------|
 | **Region** | Northern Portugal | Show pilot scope and methodology |
-| **Sub-region** | Douro, Minho, Serra da Estrela, Tras-os-Montes | Show research areas, not exact private sites |
-| **Practitioner** | Approved relationships only | Show craft, consent status, and documentation summary |
+| **Sub-region** | Douro, Minho, Serra da Estrela, Tras-os-Montes | Show research areas while protecting private sites |
+| **Practitioner** | Approved relationships only | Show craft, consent status and documentation summary |
 | **Workshop / field site** | Restricted | Visible only after explicit permission |
 
 ---
@@ -53,28 +57,28 @@ Public-facing language should describe this as a **pilot map prototype**, not a 
 
 | Filter | Purpose |
 |--------|---------|
-| Craft / stewardship focus | Understand pilot coverage |
-| Relationship status | Separate real relationships from dataset candidates |
+| Craft / land-management focus | Understand pilot coverage |
+| Relationship status | Separate verified relationships from dataset candidates |
 | Documentation status | Interviewed, photographed, reviewed, publishable |
 | Sensitivity | Apply additional review before display |
-| Steward type | Practitioner, community partner, land steward, institution |
+| Steward type | Practitioner, local partner, land steward, advisor |
 
-Avoid filters for price, popularity, ratings, or “near me” discovery.
+Use filters for field readiness, consent, craft focus and steward review status before commercial discovery.
 
 ---
 
 ## Practitioner card
 
 ```text
-Craft / stewardship title
+Craft / land-management title
 Sub-region · Portugal
 
 Status: contacted / consented / documented
-Stewardship review: pending / approved / restricted
+Steward review: pending / approved / restricted
 Documentation: interview, workshop photos, field notes
 
 Primary action: request review
-Not: instant book
+Primary action: request review
 ```
 
 ---
@@ -82,7 +86,7 @@ Not: instant book
 ## Publication rules
 
 1. Exact private locations stay hidden unless approved.
-2. A practitioner card should not go public before consent and review.
+2. A practitioner card becomes public after consent and review.
 3. Sensitive practices require additional cultural or ecological review.
 4. Student applications should open only after the pilot model is tested.
 5. The interface should always distinguish source data from field-verified relationships.
@@ -96,11 +100,11 @@ The current `docs/index.html` should present:
 - current pilot status;
 - what exists today;
 - what remains experimental;
-- stewardship principles;
+- steward authority principles;
 - documentation method;
 - links to working documents.
 
-It should not present a broad global map as if it already exists operationally.
+It should present the current pilot map prototype and distinguish field-verified relationships from source data.
 
 ---
 

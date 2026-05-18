@@ -1,15 +1,15 @@
 # Knowledge Archetype System
 
 **Version:** Phase II · 2026-05-17  
-**Status:** Canonical taxonomy for atlas nodes, filters, and stewardship rules
+**Status:** Canonical taxonomy for atlas nodes, filters and stewardship rules
 
 ---
 
 ## Purpose
 
-Knowledge Archetypes classify **what kind of transmission** occurs at a node—not merely what industry it resembles. Archetypes drive map overlays, application questions, steward review paths, and archive structure.
+Knowledge Archetypes classify **what kind of transmission** occurs at a node, with more precision than industry labels. Archetypes drive map overlays, application questions, steward review paths and archive structure.
 
-**Nine canonical archetypes.** No node is archetype-only; craft and place always remain primary.
+**Nine canonical archetypes.** Each node keeps craft and place as the primary context.
 
 ---
 
@@ -42,7 +42,7 @@ Knowledge Archetypes classify **what kind of transmission** occurs at a node—n
 | Field | Definition |
 |-------|------------|
 | **Inclusion** | Masonry, adobe, joinery, plaster, tile, dry stone, temple carpentry |
-| **Exclusion** | Commercial construction contracting without transmission intent |
+| **Boundary** | Commercial construction contracting outside a transmission context |
 | **Overlap** | Land Stewardship (land-forming walls, terraces); Material Craft |
 | **Examples** | Dry stone walling (Portugal), zellige (Morocco), adobe (New Mexico), temple carpentry (Nara) |
 | **UX** | Site-based experiences; longer residency defaults |
@@ -64,7 +64,7 @@ Knowledge Archetypes classify **what kind of transmission** occurs at a node—n
 | Field | Definition |
 |-------|------------|
 | **Inclusion** | Fermentation, wine in qvevri, bread culture, coffee processing, preservation |
-| **Exclusion** | Restaurant tourism; cooking classes without lineage |
+| **Boundary** | Restaurant tourism; cooking classes detached from lineage |
 | **Overlap** | Land Stewardship (agroforestry coffee); Material Craft (vessel-making) |
 | **Examples** | Qvevri winemaking (Georgia), coffee fermentation (Colombia), harvest traditions |
 | **UX** | Harvest calendar overlay; alcohol/regulatory flags |
@@ -86,7 +86,7 @@ Knowledge Archetypes classify **what kind of transmission** occurs at a node—n
 | Field | Definition |
 |-------|------------|
 | **Inclusion** | Instrument making, gamelan, drum carving, violin lineage |
-| **Exclusion** | Performance-only bookings without making/learning |
+| **Boundary** | Performance-only bookings detached from making or learning |
 | **Overlap** | Music & Storytelling; Material Craft |
 | **Examples** | Cremona violin making, gamelan (Java), ngoma drums (DRC) |
 | **UX** | Acoustic/media consent flags; maker-workshop focus |
@@ -108,7 +108,7 @@ Knowledge Archetypes classify **what kind of transmission** occurs at a node—n
 | Field | Definition |
 |-------|------------|
 | **Inclusion** | Griot traditions, oral history, ceremonial song, storytelling as transmission |
-| **Exclusion** | Entertainment gigs; extractive recording without consent |
+| **Boundary** | Entertainment gigs; recording requires consent and review |
 | **Overlap** | Textile & Fiber Craft (story quilts); Instrument & Music Craft |
 | **Examples** | Griot instrument making (Senegal), intergenerational storytelling (Gee's Bend) |
 | **UX** | Recording restrictions; steward-approved media policies |
@@ -137,7 +137,7 @@ Knowledge Archetypes classify **what kind of transmission** occurs at a node—n
 
 ---
 
-## UX implications (atlas, not app yet)
+## UX implications for future prototypes
 
 | Layer | Behavior |
 |-------|----------|
@@ -153,6 +153,6 @@ Knowledge Archetypes classify **what kind of transmission** occurs at a node—n
 
 - **v2:** Secondary archetype column; sub-tag enum  
 - **v3:** Archetype-specific steward review templates  
-- **Hard limit:** Do not exceed 12 top-level archetypes without founder council — taxonomy drift erodes map clarity  
+- **Governance threshold:** Expansion beyond 12 top-level archetypes requires founder council review because taxonomy drift erodes map clarity  
 
-**Proposed additions (not approved):** Ceremonial Ecology, Ritual Art — fold into existing nine via sub-tags until field evidence and advisor review prove otherwise.
+**Proposed additions for review:** Ceremonial Ecology and Ritual Art should remain sub-tags until field evidence and advisor review support a taxonomy change.

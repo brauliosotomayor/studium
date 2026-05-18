@@ -32,7 +32,7 @@ Studium should not present itself as a governed institution until the legal enti
 | Fiscal sponsorship | Early grants, donations, research funding | Faster setup; administrative support; credibility for funders | Sponsor policies may constrain payments and international work | Months 0-12 |
 | Portuguese nonprofit association | Local governance and Portuguese pilot operations | Local legitimacy; member governance; direct regional partnerships | Requires bylaws, officers, accounting and compliance | Months 6-18 |
 | U.S. nonprofit | U.S. donor and institutional funding | Familiar to U.S. funders | Less local fit for Portugal pilot; setup burden | Defer unless funding requires it |
-| For-profit company | Future booking or marketplace operations | Flexible commercial contracts | Weak mission lock; higher extraction risk | Do not form before governance and consent model |
+| For-profit company | Future booking or marketplace operations | Flexible commercial contracts | Underdeveloped mission lock; higher extraction risk | Do not form before governance and consent model |
 | Hybrid structure | Nonprofit archive plus commercial services arm | Separates mission work from revenue | Complex; requires mature governance | Future option only |
 
 **Phase III recommendation:** start with fiscal sponsorship while drafting a Portuguese nonprofit association path. Do not create a for-profit marketplace entity before consent, stewardship and compensation rules are tested.
@@ -110,7 +110,7 @@ The founder may not unilaterally:
 |----------|----------------|------------|------------|
 | Practitioner disputes public representation | Take material offline within 5 business days | Advisor + practitioner review | Practitioner-approved wording controls |
 | Community or steward objects to documentation | Restrict access immediately | Stewardship review meeting | Restricted access remains default |
-| Student violates media or fieldwork rules | Suspend participation | Advisor review if serious | Removal and takedown if harm occurred |
+| Student violates media or fieldwork rules | Suspend participation | Advisor review if high-risk | Removal and takedown if harm occurred |
 | Founder and advisor disagree on publication | Hold publication | Advisory board review | No publication without documented approval |
 | Funding creates mission conflict | Pause acceptance | Governance advisor review | Decline if consent or stewardship is compromised |
 

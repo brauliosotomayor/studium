@@ -1,26 +1,32 @@
 # Studium — A Manifesto
 
+**Status:** Archival orientation draft  
+**Visibility:** Restricted public draft / internal reference  
+**Canonical authority:** Use `20-public-language-and-positioning-guide.md` for public copy.
+
+This statement preserves founder-facing narrative context. It should not be treated as institutional policy, field validation or evidence of practitioner participation.
+
 We believe that knowledge rooted in place is one of humanity’s most valuable inheritances.
 
-Across the world, masters of craft and stewards of land hold knowledge that cannot be downloaded, automated, or mass-produced. It lives in the hands of a stonemason shaping granite, in the rhythm of a loom, in the patient tending of soil, forests, and water.
+In many places, masters of craft and stewards of land hold knowledge that cannot be downloaded, automated, or mass-produced. It lives in the hands of a stonemason shaping granite, in the rhythm of a loom, in the patient tending of soil, forests and water.
 
-For centuries, this knowledge passed from master to student through apprenticeship. It required time, presence, humility, and care.
+For centuries, this knowledge passed from master to student through apprenticeship. It required time, presence, humility and care.
 
 Today, that lineage is breaking.
 
-As older generations retire, many traditions risk disappearing—not because they lack value, but because the pathways for transmission have faded.
+As older generations retire, many traditions risk disappearing because the pathways for transmission have faded.
 
-At the same time, a new generation is searching for something deeper: the opportunity to learn with their hands, to understand the land beneath their feet, and to reconnect with living traditions.
+At the same time, a new generation is searching for something deeper: the opportunity to learn with their hands, to understand the land beneath their feet and to reconnect with living traditions.
 
 **Studium exists to rebuild that bridge.**
 
 We are testing a small pilot where students can learn from craftspeople and land stewards through documented, consent-based apprenticeship.
 
-Studium is not a marketplace for tourism or entertainment.
+Studium begins as a place for high-engagement learning, documentation and steward review.
 
 It is a place for devotion to learning.
 
-Through immersive apprenticeships, seasonal residencies, and meaningful encounters, students step into workshops, fields, forests, and villages where knowledge still lives.
+Through immersive apprenticeships, seasonal residencies and relationship-based encounters, students step into workshops, fields, forests and villages where knowledge still lives.
 
 Each experience is rooted in place. Each relationship honors lineage.
 
@@ -44,13 +50,13 @@ We believe mastery deserves recognition.
 We believe traditions deserve protection.  
 We believe learning should transform those who seek it.
 
-By connecting students with masters and stewards across the world, we hope to preserve knowledge that might otherwise disappear—and ensure it continues to evolve in the hands of future generations.
+Over time, Studium may support relationships among students, masters and stewards so place-based craft transmission can continue in the hands of future generations.
 
-This is not simply an app.
+This begins with fieldwork and relationship-building.
 
 It begins as fieldwork.
 
-A careful prototype for learning, documentation, and stewardship.
+A careful prototype for learning, documentation and governance responsibility.
 
 A place where devotion to learning becomes a path forward.
 
@@ -60,6 +66,6 @@ A place where devotion to learning becomes a path forward.
 
 ## Context
 
-This statement is a draft orientation document. It should not be used to imply institutional authority before fieldwork, practitioner consent, and partner review exist.
+This statement is a draft orientation document. It should be used alongside fieldwork, practitioner consent and partner review.
 
-A natural next step after articulating this vision is to design the first pilot: choosing an initial region, identifying the first ten masters, and defining the first types of apprenticeships—the point at which vision becomes concrete and actionable.
+A natural next step after articulating this vision is to design the first pilot: choosing an initial region, identifying the first ten masters and defining the first types of apprenticeships—the point at which vision becomes concrete and actionable.

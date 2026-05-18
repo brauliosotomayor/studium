@@ -50,7 +50,7 @@ Public scope remains a small Northern Portugal pilot. No public claim should imp
 | 4 | Archive readiness | Configure metadata fields, access tiers and restricted storage procedure |
 | 5 | Local context mapping | Identify Northern Portugal sub-region priority and local partner categories |
 | 6 | Advisor review | Hold first advisory review; approve fieldwork readiness criteria |
-| 7 | Practitioner outreach 1 | Contact first candidate through trusted channel; no public claim |
+| 7 | Practitioner outreach 1 | Contact first candidate through consent-based referral channel; no public claim |
 | 8 | Practitioner conversation 1 | Conduct non-public interview if consented; document review notes |
 | 9 | Archive pilot record 1 | Create restricted archive record; test withdrawal and access procedure |
 | 10 | Practitioner outreach 2 | Contact second candidate; update risk register |

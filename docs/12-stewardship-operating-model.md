@@ -139,7 +139,7 @@ Studium should not:
 - rank sensitive practices by popularity;
 - use documentation volume as the main success metric;
 - use app analytics to override human review;
-- frame stewards as symbolic advisors without actual decision rights.
+- frame stewards as symbolic advisors without documented decision rights.
 
 ---
 

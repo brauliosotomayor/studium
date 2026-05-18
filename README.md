@@ -1,25 +1,40 @@
 # Studium
 
-An early-stage pilot for place-based apprenticeship, documentation, and cultural preservation in Northern Portugal.
+Studium is a pre-institutional pilot initiative for place-based apprenticeship, documentation and cultural preservation in Northern Portugal.
 
-**Student · Master · Steward**
+**Pilot · Fieldwork · Governance**
+
+## Operational state
+
+Studium is not yet a legally constituted institution, field program or partner network. The repository currently defines the governance, consent, archive and pilot-readiness systems required before field activity, public recruitment or product implementation.
+
+## Canonical reading hierarchy
+
+Read these files in order when evaluating the current operating model:
+
+1. [`docs/00-overview.md`](docs/00-overview.md) — project map and status labels
+2. [`docs/20-public-language-and-positioning-guide.md`](docs/20-public-language-and-positioning-guide.md) — public copy boundaries
+3. [`docs/11-governance-blueprint.md`](docs/11-governance-blueprint.md) — legal path, advisory board and decision rights
+4. [`docs/12-stewardship-operating-model.md`](docs/12-stewardship-operating-model.md) — steward authority, review cycles and escalation
+5. [`docs/13-consent-and-documentation-ethics.md`](docs/13-consent-and-documentation-ethics.md) — consent workflow and documentation ethics
+6. [`docs/19-technology-and-data-architecture.md`](docs/19-technology-and-data-architecture.md) — archive, metadata and technology gate
+7. [`docs/16-operational-pilot-plan.md`](docs/16-operational-pilot-plan.md) — 24-month Northern Portugal pilot sequence
+8. [`docs/17-risk-and-failure-analysis.md`](docs/17-risk-and-failure-analysis.md) — risk register and stop / pivot / continue criteria
 
 ## Repository
 
 | Path | Description |
 |------|-------------|
-| [`docs/index.html`](docs/index.html) | Front page (pilot status, stewardship, documentation method) |
 | **Live site** | https://brauliosotomayor.github.io/studium/ |
-| [`docs/00-overview.md`](docs/00-overview.md) | Start here — project summary and doc index |
-| [`data/studium_atlas_master.csv`](data/studium_atlas_master.csv) | Normalized atlas (266 nodes) |
-| [`docs/05-corridor-registry.md`](docs/05-corridor-registry.md) | Phase II — corridor registry |
-| [`docs/01-marketplace-and-business.md`](docs/01-marketplace-and-business.md) | Business model and launch strategy |
-| [`docs/02-triangle-philosophy.md`](docs/02-triangle-philosophy.md) | Philosophical architecture |
-| [`docs/03-manifesto.md`](docs/03-manifesto.md) | Brand manifesto |
-| [`docs/04-pilot-plan.md`](docs/04-pilot-plan.md) | First-year pilot (Northern Portugal) |
-| [`docs/ORCHESTRATOR.md`](docs/ORCHESTRATOR.md) | Remote orchestrator handoff |
-| [`src/chat.md`](src/chat.md) | Original conversation export |
-| [`data/`](data/) | Source dataset (masters atlas, drafts, visuals) |
+| [`docs/index.html`](docs/index.html) | Public pilot page |
+| [`docs/00-overview.md`](docs/00-overview.md) | Canonical repository map |
+| [`docs/ORCHESTRATOR.md`](docs/ORCHESTRATOR.md) | Phase IV agent handoff and work lanes |
+| [`data/`](data/) | Operational CSV schemas and internal research data |
+| [`src/chat.md`](src/chat.md) | Original conversation export, preserved as archive |
+
+## Archival and exploratory materials
+
+Older strategy and atlas-planning docs remain in the repository for context, but they are not the current operating authority. Use `docs/00-overview.md` for status and visibility labels before citing them.
 
 ## Publishing the site (branch deploy — not Actions)
 
@@ -37,7 +52,7 @@ Static site files live in `docs/`. **Do not use GitHub Actions** for Pages; depl
 
 ## For agents and orchestrators
 
-Read [`docs/ORCHESTRATOR.md`](docs/ORCHESTRATOR.md) for current repo state, priorities, and suggested next tasks.
+Read [`docs/ORCHESTRATOR.md`](docs/ORCHESTRATOR.md) for current repo state, priorities and suggested next tasks.
 
 ## License
 

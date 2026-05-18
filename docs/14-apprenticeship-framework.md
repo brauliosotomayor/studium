@@ -20,8 +20,8 @@ No public recruitment should begin until governance, consent, compensation, insu
 | Study visit | 2-4 hours | 1-4 | Relationship introduction, observation and context | Pilot only |
 | Field documentation session | Half day to 2 days | 1-3 | Interview, photography, archive preparation | Requires consent |
 | Workshop immersion | 2-5 days | 3-6 | Hands-on learning with defined scope | After practitioner agreement |
-| Seasonal residency | 1-4 weeks | 1-3 | Deeper practice, farm or workshop rhythm | Defer until pilot proves capacity |
-| Apprenticeship | 1-6 months | 1-2 | Serious transmission relationship | Future only |
+| Seasonal residency | 1-4 weeks | 1-3 | Immersive practice, farm or workshop rhythm | Defer until pilot proves capacity |
+| Apprenticeship | 1-6 months | 1-2 | High-engagement transmission relationship | Future only |
 
 The first 24 months should emphasize study visits, documentation sessions and limited workshop immersions.
 
