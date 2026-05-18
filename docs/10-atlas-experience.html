@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pilot Map &amp; Discovery Logic — Studium</title>
+  <meta name="description" content="Pilot Map &amp; Discovery Logic in the Studium public documentation hierarchy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="studium-site.css">
+</head>
+<body>
+  <header class="site-header wrap">
+    <p class="eyebrow">Student · Master · Steward</p>
+    <h1><a href="index.html">Studium</a></h1>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="00-overview.html">Overview</a>
+      <a href="20-public-language-and-positioning-guide.html">Public Language</a>
+      <a href="11-governance-blueprint.html">Governance</a>
+      <a href="12-stewardship-operating-model.html">Stewardship</a>
+      <a href="13-consent-and-documentation-ethics.html">Consent</a>
+      <a href="16-operational-pilot-plan.html">Pilot Plan</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="document-hero wrap">
+      <p class="breadcrumb"><a href="index.html">Home</a> / <a href="00-overview.html">Documentation</a> / 10-atlas-experience</p>
+      <h2 class="document-title">Pilot Map &amp; Discovery Logic</h2>
+      <div class="badge-row">
+        <span class="status-badge archive">Archive / Internal Reference</span>
+      </div>
+      <aside class="document-meta" aria-label="Document metadata">
+        <dl>
+          <dt>Status</dt>
+          <dd>Deferred UX planning note before app implementation</dd>
+          <dt>Audience</dt>
+          <dd>Internal deferred UX reference</dd>
+          <dt>Repository path</dt>
+          <dd><code>docs/10-atlas-experience.md</code></dd>
+          <dt>Last reviewed</dt>
+          <dd>2026-05-17</dd>
+        </dl>
+      </aside>
+    </section>
+
+    <article class="document-body">
+<p><strong>Version:</strong> Remediated Phase II · 2026-05-17 <strong>Status:</strong> Deferred UX planning note before app implementation <strong>Visibility:</strong> Internal <strong>Canonical gate:</strong> Use <code>19-technology-and-data-architecture.md</code> before any app, map or public prototype work.</p>
+<p>This file is a future product reference. It does not authorize app, marketplace, public map or booking implementation before governance, consent and archive controls are tested.</p>
+<hr>
+<h2 id="design-intent">Design intent</h2>
+<p>The first interface should support <strong>field documentation and careful discovery</strong>. The map should help a small team understand where relationships exist, what permissions apply and what documentation is ready for review.</p>
+<p>Public-facing language should describe this as a <strong>pilot map prototype</strong> during field validation.</p>
+<hr>
+<h2 id="current-use-case">Current use case</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Need</th>
+<th>Interface response</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Show the current pilot area</td>
+<td>Northern Portugal region card and research boundary</td>
+</tr>
+<tr>
+<td>Track practitioner relationships</td>
+<td>Candidate / contacted / consented / documented statuses</td>
+</tr>
+<tr>
+<td>Record steward review</td>
+<td>Steward contact, permission level, restrictions</td>
+</tr>
+<tr>
+<td>Publication restraint</td>
+<td>Hide sensitive locations until approved</td>
+</tr>
+<tr>
+<td>Support fieldwork</td>
+<td>Interview checklist, photo permissions, archive notes</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="map-layers">Map layers</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Layer</th>
+<th>Default</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Pilot region</strong></td>
+<td>On</td>
+<td>Northern Portugal research area</td>
+</tr>
+<tr>
+<td><strong>Practitioner status</strong></td>
+<td>On</td>
+<td>Candidate, contacted, consented, documented</td>
+</tr>
+<tr>
+<td><strong>Craft focus</strong></td>
+<td>On</td>
+<td>Practical categories such as vineyard management, stone, cork, ceramics</td>
+</tr>
+<tr>
+<td><strong>Steward review</strong></td>
+<td>On</td>
+<td>Consent status, media limits, local review partner</td>
+</tr>
+<tr>
+<td><strong>Sensitivity</strong></td>
+<td>On</td>
+<td>Low / Medium / High review requirement</td>
+</tr>
+<tr>
+<td><strong>Archive readiness</strong></td>
+<td>Off</td>
+<td>Whether interview, photos and permissions are publishable</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="zoom-levels">Zoom levels</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Level</th>
+<th>View</th>
+<th>Behavior</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Region</strong></td>
+<td>Northern Portugal</td>
+<td>Show pilot scope and methodology</td>
+</tr>
+<tr>
+<td><strong>Sub-region</strong></td>
+<td>Douro, Minho, Serra da Estrela, Tras-os-Montes</td>
+<td>Show research areas while protecting private sites</td>
+</tr>
+<tr>
+<td><strong>Practitioner</strong></td>
+<td>Approved relationships only</td>
+<td>Show craft, consent status and documentation summary</td>
+</tr>
+<tr>
+<td><strong>Workshop / field site</strong></td>
+<td>Restricted</td>
+<td>Visible only after explicit permission</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="filters">Filters</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Filter</th>
+<th>Purpose</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Craft / land-management focus</td>
+<td>Understand pilot coverage</td>
+</tr>
+<tr>
+<td>Relationship status</td>
+<td>Separate verified relationships from dataset candidates</td>
+</tr>
+<tr>
+<td>Documentation status</td>
+<td>Interviewed, photographed, reviewed, publishable</td>
+</tr>
+<tr>
+<td>Sensitivity</td>
+<td>Apply additional review before display</td>
+</tr>
+<tr>
+<td>Steward type</td>
+<td>Practitioner, local partner, land steward, advisor</td>
+</tr>
+</tbody>
+</table></div>
+<p>Use filters for field readiness, consent, craft focus and steward review status before commercial discovery.</p>
+<hr>
+<h2 id="practitioner-card">Practitioner card</h2>
+<pre><code class="language-text">Craft / land-management title
+Sub-region · Portugal
+
+Status: contacted / consented / documented
+Steward review: pending / approved / restricted
+Documentation: interview, workshop photos, field notes
+
+Primary action: request review
+Primary action: request review</code></pre>
+<hr>
+<h2 id="publication-rules">Publication rules</h2>
+<ol>
+<li>Exact private locations stay hidden unless approved.</li>
+<li>A practitioner card becomes public after consent and review.</li>
+<li>Sensitive practices require additional cultural or ecological review.</li>
+<li>Student applications should open only after the pilot model is tested.</li>
+<li>The interface should always distinguish source data from field-verified relationships.</li>
+</ol>
+<hr>
+<h2 id="static-site-use">Static site use</h2>
+<p>The current <code>docs/index.html</code> should present:</p>
+<ul>
+<li>current pilot status;</li>
+<li>what exists today;</li>
+<li>what remains experimental;</li>
+<li>steward authority principles;</li>
+<li>documentation method;</li>
+<li>links to working documents.</li>
+</ul>
+<p>It should present the current pilot map prototype and distinguish field-verified relationships from source data.</p>
+<hr>
+<h2 id="next-ux-deliverable">Next UX deliverable</h2>
+<p>After founder decisions D1-D3, create:</p>
+<p><code>docs/11-pilot-ia-and-data-model.md</code></p>
+<p>Required contents:</p>
+<ul>
+<li>relationship status lifecycle;</li>
+<li>field documentation schema;</li>
+<li>consent and media permission model;</li>
+<li>minimal public profile fields;</li>
+<li>admin-only fields for steward review;</li>
+<li>criteria for when a candidate becomes public.</li>
+</ul>
+    </article>
+  </main>
+
+  <footer class="wrap">
+    <p>Studium does not currently operate an apprenticeship program, steward network or institutional partnership structure.</p>
+    <nav class="footer-nav" aria-label="Repository navigation">
+      <a href="index.html">Homepage</a>
+      <a href="00-overview.html">Document hierarchy</a>
+      <a href="https://github.com/brauliosotomayor/studium">GitHub repository</a>
+    </nav>
+  </footer>
+</body>
+</html>

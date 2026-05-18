@@ -3,224 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Studium — Pilot governance network</title>
+  <title>Studium — Field research pilot</title>
   <meta name="description" content="A small-scale pilot for place-based apprenticeship, documentation and cultural preservation in Northern Portugal.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --ink: #1f1b17;
-      --text: #494239;
-      --muted: #6f675c;
-      --paper: #f6f1e8;
-      --panel: #ebe4d6;
-      --forest: #2d4a3e;
-      --accent: #a78345;
-      --line: rgba(31, 27, 23, 0.14);
-      --wide: 64rem;
-      --narrow: 44rem;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: "Source Sans 3", system-ui, sans-serif;
-      font-size: 18px;
-      font-weight: 300;
-      line-height: 1.65;
-      color: var(--text);
-      background: var(--paper);
-    }
-
-    h1, h2, h3 {
-      font-family: "Cormorant Garamond", Georgia, serif;
-      color: var(--ink);
-      line-height: 1.12;
-      margin: 0 0 1rem;
-    }
-
-    h1 {
-      font-size: clamp(3rem, 9vw, 5.5rem);
-      letter-spacing: 0.03em;
-    }
-
-    h2 {
-      font-size: clamp(1.8rem, 4vw, 2.6rem);
-    }
-
-    h3 {
-      font-size: 1.35rem;
-    }
-
-    a {
-      color: var(--forest);
-      text-underline-offset: 3px;
-    }
-
-    .wrap {
-      max-width: var(--wide);
-      margin: 0 auto;
-      padding: 0 1.5rem;
-    }
-
-    .narrow {
-      max-width: var(--narrow);
-    }
-
-    header {
-      padding: 2rem 0 1rem;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .eyebrow {
-      margin: 0 0 0.5rem;
-      font-size: 0.85rem;
-      font-weight: 600;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-
-    .hero {
-      padding: 5rem 0 4rem;
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
-      gap: 3rem;
-      align-items: center;
-    }
-
-    .lead {
-      max-width: 36rem;
-      font-size: clamp(1.15rem, 2.2vw, 1.35rem);
-      color: var(--ink);
-    }
-
-    .status-card {
-      padding: 1.25rem;
-      border: 1px solid var(--line);
-      background: var(--panel);
-    }
-
-    .status-card dl {
-      margin: 0;
-      display: grid;
-      grid-template-columns: 7rem 1fr;
-      gap: 0.6rem 1rem;
-      font-size: 0.95rem;
-    }
-
-    .status-card dt {
-      font-weight: 600;
-      color: var(--ink);
-    }
-
-    .status-card dd {
-      margin: 0;
-    }
-
-    section {
-      padding: 3rem 0;
-      border-top: 1px solid var(--line);
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 1rem;
-    }
-
-    .card {
-      padding: 1.25rem;
-      border: 1px solid var(--line);
-      background: rgba(235, 228, 214, 0.65);
-    }
-
-    .card p:last-child {
-      margin-bottom: 0;
-    }
-
-    .pilot {
-      background: var(--forest);
-      color: rgba(246, 241, 232, 0.9);
-    }
-
-    .pilot h2,
-    .pilot h3 {
-      color: var(--paper);
-    }
-
-    .pilot a {
-      color: #e0c28d;
-    }
-
-    .metrics {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-
-    .metric {
-      padding-top: 1rem;
-      border-top: 1px solid rgba(246, 241, 232, 0.22);
-    }
-
-    .metric strong {
-      display: block;
-      font-family: "Cormorant Garamond", Georgia, serif;
-      font-size: 2.4rem;
-      color: #e0c28d;
-      line-height: 1;
-    }
-
-    .method-list {
-      margin: 0;
-      padding-left: 1.2rem;
-    }
-
-    .method-list li {
-      margin-bottom: 0.65rem;
-    }
-
-    .notice {
-      padding: 1rem 1.25rem;
-      border-left: 4px solid var(--accent);
-      background: var(--panel);
-    }
-
-    footer {
-      padding: 2rem 0;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    @media (max-width: 760px) {
-      .hero-grid { grid-template-columns: 1fr; }
-      .hero { padding-top: 3rem; }
-      .status-card dl { grid-template-columns: 1fr; }
-    }
-  </style>
+  <link rel="stylesheet" href="studium-site.css">
 </head>
 <body>
-  <header class="wrap">
+  <header class="site-header wrap">
     <p class="eyebrow">Student · Master · Steward</p>
-    <h1>Studium</h1>
+    <h1><a href="index.html">Studium</a></h1>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="00-overview.html">Overview</a>
+      <a href="20-public-language-and-positioning-guide.html">Public Language</a>
+      <a href="11-governance-blueprint.html">Governance</a>
+      <a href="12-stewardship-operating-model.html">Stewardship</a>
+      <a href="13-consent-and-documentation-ethics.html">Consent</a>
+      <a href="16-operational-pilot-plan.html">Pilot Plan</a>
+    </nav>
   </header>
 
   <main>
     <section class="hero wrap">
       <div class="hero-grid">
         <div>
-          <p class="eyebrow">Pilot governance network</p>
-          <h2>Place-based apprenticeship, documentation and cultural preservation.</h2>
-          <p class="lead">Studium is currently a small-scale pilot framework for learning from craftspeople and land stewards through documented fieldwork, local review and carefully limited participation.</p>
-          <p>This begins as an early prototype for testing whether apprenticeship, cultural documentation and steward authority can work together in one region before any wider expansion.</p>
+          <p class="eyebrow">Field research pilot</p>
+          <h2>An early-stage field research project focused on apprenticeship and documentation in Northern Portugal.</h2>
+          <p class="lead">Studium is an early-stage field research project exploring how small-scale apprenticeship and documentation projects might support craft and land-based knowledge transmission in Northern Portugal.</p>
+          <p>The first phase focuses on whether a small number of practitioners are willing to participate in a documented apprenticeship pilot under clear consent and review conditions.</p>
         </div>
         <aside class="status-card" aria-label="Current project status">
           <h3>Current status</h3>
@@ -230,7 +42,7 @@
             <dt>Region</dt>
             <dd>Northern Portugal</dd>
             <dt>Next proof</dt>
-            <dd>3 documented practitioner relationships</dd>
+            <dd>Initial target: 3 practitioner relationships with documented consent and review</dd>
             <dt>Public claims</dt>
             <dd>Limited to documented work</dd>
           </dl>
@@ -245,7 +57,7 @@
         <div class="grid">
           <article class="card">
             <h3>Location</h3>
-            <p>Northern Portugal, beginning with the Douro / Minho / Serra da Estrela / Tras-os-Montes research area. The exact first field site remains to be confirmed.</p>
+            <p>Early conversations and site research are currently concentrated in Northern Portugal, with exploratory attention on the Douro and surrounding regions. The first long-term field site has not been selected yet.</p>
           </article>
           <article class="card">
             <h3>Participants</h3>
@@ -253,7 +65,7 @@
           </article>
           <article class="card">
             <h3>Craft focus</h3>
-            <p>Likely early focus areas: vineyard management, dry stone work, cork / forest knowledge, ceramics, basketry, or other locally verified practices.</p>
+            <p>Current research interests include vineyard work, dry stone construction, cork landscapes, ceramics and basketry traditions connected to the region.</p>
           </article>
           <article class="card">
             <h3>Timeline</h3>
@@ -273,7 +85,7 @@
       <div class="wrap narrow">
         <p class="eyebrow">What exists today</p>
         <h2>Strategy documents, source data and a public prototype. Field evidence is the next milestone.</h2>
-        <p>Current materials include a normalized atlas dataset, a steward authority model, evaluation criteria and documentation methodology. They are planning artifacts awaiting field validation and partner review.</p>
+        <p>Current materials include working datasets, governance drafts, evaluation criteria and documentation notes. These are planning documents awaiting field validation and local review.</p>
         <div class="notice">
           <strong>Next evidence:</strong> Studium needs practitioner interviews, field photography, local partner review and a tested consent process before making larger claims.
         </div>
@@ -283,44 +95,44 @@
     <section id="governance">
       <div class="wrap">
         <p class="eyebrow">Governance responsibility</p>
-        <h2>Stewards carry operational authority.</h2>
+        <h2>Future field participation depends on local review and consent.</h2>
         <div class="grid">
           <article class="card">
             <h3>Local review</h3>
-            <p>Participation should be approved by the practitioner and, where relevant, a local steward, cooperative, elder or named partner organization.</p>
+            <p>The pilot assumes future participation from local practitioners, associations, cooperatives or other review partners before any public apprenticeship activity begins.</p>
           </article>
           <article class="card">
             <h3>Consent structures</h3>
-            <p>Students, practitioners and stewards must agree on what can be documented, published, archived, restricted, or removed.</p>
+            <p>The proposed consent process would define what can be documented, published, archived, restricted or removed before any material is shared publicly.</p>
           </article>
           <article class="card">
             <h3>Student screening</h3>
-            <p>Application-based access. Applicants should explain intent, relevant experience, time commitment and willingness to follow local rules.</p>
+            <p>Any future participation process would remain small and application-based during the pilot stage.</p>
           </article>
           <article class="card">
             <h3>Cultural protections</h3>
-            <p>High-sensitivity knowledge requires additional review, limited media and the right for communities to decline participation.</p>
+            <p>Some practices may remain undocumented or private if practitioners or local communities do not want them recorded or shared.</p>
           </article>
           <article class="card">
             <h3>Ecological safeguards</h3>
-            <p>Field visits must respect seasonality, carrying capacity, safety and the condition of land-based systems.</p>
+            <p>Any future field visits would need to respect seasonal work cycles, environmental conditions and the limits defined by local participants.</p>
           </article>
           <article class="card">
             <h3>Dispute mediation</h3>
-            <p>Stewards can pause documentation, reject participation, mediate harm reports and define reciprocity obligations.</p>
+            <p>The proposed review model would allow local partners or participants to pause documentation activity if concerns emerge.</p>
           </article>
         </div>
-        <p><a href="12-stewardship-operating-model.md">Read the operating model for steward authority</a></p>
+        <p><a href="12-stewardship-operating-model.html">Read the operating model for steward authority</a></p>
       </div>
     </section>
 
     <section id="methodology">
       <div class="wrap narrow">
         <p class="eyebrow">Documentation method</p>
-        <h2>Fieldwork before scale.</h2>
+        <h2>No expansion before documented fieldwork.</h2>
         <ul class="method-list">
           <li><strong>Interview process:</strong> record practitioner biography, lineage, teaching capacity, continuity risk and consent boundaries.</li>
-          <li><strong>Field recording:</strong> photograph workshop and environment after explicit permission; prioritize accuracy, context and restraint.</li>
+          <li><strong>Field recording:</strong> photograph workshops and surrounding environments only after explicit permission, with clear attribution and documented consent boundaries.</li>
           <li><strong>Cultural permissions:</strong> sensitive practices require partner review before publication.</li>
           <li><strong>Archive standards:</strong> preserve source notes, image credits, license terms and removal rights.</li>
           <li><strong>Partner review:</strong> publish case studies only after practitioner and steward review.</li>
@@ -337,20 +149,20 @@
             <p>Start with one region and a few consent-based practitioner relationships. Let field evidence set the pace of growth.</p>
           </article>
           <article class="card">
-            <h3>Access by trust</h3>
-            <p>Participation is earned through intent, preparation and respect for local boundaries.</p>
+            <h3>Limited participation</h3>
+            <p>Any pilot participation process would remain small, application-based and dependent on practitioner approval.</p>
           </article>
           <article class="card">
             <h3>Practitioner-led participation</h3>
             <p>Practitioners and stewards define what is appropriate to teach, document and share.</p>
           </article>
           <article class="card">
-            <h3>Reciprocal engagement</h3>
-            <p>Prioritize consent, practitioner benefit, contextual documentation and pressure-free participation.</p>
+            <h3>Documented consent</h3>
+            <p>Documentation activities should begin only after expectations, permissions and review boundaries are discussed clearly.</p>
           </article>
           <article class="card">
-            <h3>Long-term reciprocity</h3>
-            <p>Economic, archival and reputational benefits must return to practitioners and communities.</p>
+            <h3>Long-term accountability</h3>
+            <p>The pilot should remain accountable to participating practitioners and local review partners as documentation develops.</p>
           </article>
         </div>
       </div>
@@ -359,12 +171,12 @@
     <section id="materials">
       <div class="wrap narrow">
         <p class="eyebrow">Working materials</p>
-        <h2>Public documents are working drafts for review.</h2>
+        <h2>Most repository documents are internal planning drafts published publicly for transparency.</h2>
         <ul class="method-list">
-          <li><a href="00-overview.md">Project overview</a></li>
-          <li><a href="04-pilot-plan.md">First-year pilot plan</a></li>
-          <li><a href="12-stewardship-operating-model.md">Steward authority operating model</a></li>
-          <li><a href="09-master-evaluation-framework.md">Practitioner evaluation framework</a></li>
+          <li><a href="00-overview.html">Project overview</a></li>
+          <li><a href="04-pilot-plan.html">First-year pilot plan</a></li>
+          <li><a href="12-stewardship-operating-model.html">Steward authority operating model</a></li>
+          <li><a href="09-master-evaluation-framework.html">Practitioner evaluation framework</a></li>
           <li><a href="../data/studium_atlas_master.csv">Normalized working dataset</a></li>
         </ul>
       </div>
@@ -372,8 +184,12 @@
   </main>
 
   <footer class="wrap">
-    <p>Studium is an early-stage pilot project. Public language should remain grounded in fieldwork, documentation and consent.</p>
-    <p><a href="https://github.com/brauliosotomayor/studium">github.com/brauliosotomayor/studium</a></p>
+    <p>Studium does not currently operate an apprenticeship program, steward network or institutional partnership structure.</p>
+    <nav class="footer-nav" aria-label="Repository navigation">
+      <a href="index.html">Homepage</a>
+      <a href="00-overview.html">Document hierarchy</a>
+      <a href="https://github.com/brauliosotomayor/studium">GitHub repository</a>
+    </nav>
   </footer>
 </body>
 </html>

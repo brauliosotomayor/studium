@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Risk and Failure Analysis — Studium</title>
+  <meta name="description" content="Risk and Failure Analysis in the Studium public documentation hierarchy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="studium-site.css">
+</head>
+<body>
+  <header class="site-header wrap">
+    <p class="eyebrow">Student · Master · Steward</p>
+    <h1><a href="index.html">Studium</a></h1>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="00-overview.html">Overview</a>
+      <a href="20-public-language-and-positioning-guide.html">Public Language</a>
+      <a href="11-governance-blueprint.html">Governance</a>
+      <a href="12-stewardship-operating-model.html">Stewardship</a>
+      <a href="13-consent-and-documentation-ethics.html">Consent</a>
+      <a href="16-operational-pilot-plan.html">Pilot Plan</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="document-hero wrap">
+      <p class="breadcrumb"><a href="index.html">Home</a> / <a href="00-overview.html">Documentation</a> / 17-risk-and-failure-analysis</p>
+      <h2 class="document-title">Risk and Failure Analysis</h2>
+      <div class="badge-row">
+        <span class="status-badge internal">Internal Working Draft</span>
+      </div>
+      <aside class="document-meta" aria-label="Document metadata">
+        <dl>
+          <dt>Status</dt>
+          <dd>Operating risk register and failure monitoring model</dd>
+          <dt>Audience</dt>
+          <dd>Internal risk monitoring</dd>
+          <dt>Repository path</dt>
+          <dd><code>docs/17-risk-and-failure-analysis.md</code></dd>
+          <dt>Last reviewed</dt>
+          <dd>2026-05-17</dd>
+        </dl>
+      </aside>
+    </section>
+
+    <article class="document-body">
+<p><strong>Version:</strong> Phase III · 2026-05-17 <strong>Status:</strong> Operating risk register and failure monitoring model</p>
+<hr>
+<h2 id="purpose">Purpose</h2>
+<p>This document defines Studium&#x27;s failure-pattern registry, risk matrix, mitigation ownership and stop / pivot / continue criteria.</p>
+<p>The goal is not to eliminate risk. The goal is to see failure early enough to slow down, repair, restrict or stop.</p>
+<hr>
+<h2 id="risk-categories">Risk categories</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Category</th>
+<th>Description</th>
+<th>Primary owner</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Governance</td>
+<td>Missing entity, unclear authority, founder overreach</td>
+<td>Governance steward</td>
+</tr>
+<tr>
+<td>Consent</td>
+<td>Documentation without valid permission or review</td>
+<td>Archive steward</td>
+</tr>
+<tr>
+<td>Community harm</td>
+<td>Misrepresentation, unwanted exposure, local disruption</td>
+<td>Stewardship reviewer</td>
+</tr>
+<tr>
+<td>Practitioner burden</td>
+<td>Underpaid, over-documented or over-scheduled participation</td>
+<td>Founder</td>
+</tr>
+<tr>
+<td>Archive exposure</td>
+<td>Sensitive records accessible too widely</td>
+<td>Archive steward</td>
+</tr>
+<tr>
+<td>Legal / liability</td>
+<td>Safety, payment, privacy or contract gaps</td>
+<td>Legal advisor</td>
+</tr>
+<tr>
+<td>Funding distortion</td>
+<td>Money changes priorities toward outputs or scale</td>
+<td>Governance steward</td>
+</tr>
+<tr>
+<td>Technology drift</td>
+<td>App or marketplace work begins before governance readiness</td>
+<td>Founder</td>
+</tr>
+<tr>
+<td>Public language</td>
+<td>Claims exceed evidence</td>
+<td>Communications owner</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="failure-pattern-registry">Failure-pattern registry</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Failure pattern</th>
+<th>Early warning</th>
+<th>Mitigation</th>
+<th>Stop trigger</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Consent debt</td>
+<td>Media or notes lack consent ID</td>
+<td>Freeze publication and audit records</td>
+<td>Material cannot be matched to consent</td>
+</tr>
+<tr>
+<td>Public overclaiming</td>
+<td>Copy implies active partners or global authority</td>
+<td>Rewrite and add evidence gate</td>
+<td>Partner or practitioner disputes claim</td>
+</tr>
+<tr>
+<td>Practitioner extraction</td>
+<td>More asks than compensation or benefit</td>
+<td>Reduce scope; pay review time</td>
+<td>Practitioner reports harm or burden</td>
+</tr>
+<tr>
+<td>Archive leakage</td>
+<td>Restricted material appears in public location</td>
+<td>Remove, audit access, notify affected person</td>
+<td>Sensitive material exposed externally</td>
+</tr>
+<tr>
+<td>Governance theater</td>
+<td>Advisors named without authority</td>
+<td>Define charter or remove claim</td>
+<td>Advisor objects to representation</td>
+</tr>
+<tr>
+<td>Student access too early</td>
+<td>Recruitment before safety and agreements</td>
+<td>Close applications and complete policies</td>
+<td>Student activity occurs without agreement</td>
+</tr>
+<tr>
+<td>Funding capture</td>
+<td>Grant deliverables exceed capacity</td>
+<td>Renegotiate or decline</td>
+<td>Funding requires violating consent or pace</td>
+</tr>
+<tr>
+<td>Technology scale bias</td>
+<td>Roadmap prioritizes bookings, ranking or growth</td>
+<td>Gate product work through governance</td>
+<td>App build starts before approval</td>
+</tr>
+<tr>
+<td>Atlas expansion</td>
+<td>New regions published before pilot proof</td>
+<td>Reclassify internal</td>
+<td>Public corridor claim made without fieldwork</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="risk-matrix">Risk matrix</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Severity</th>
+<th>Meaning</th>
+<th>Example</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Low</td>
+<td>Manageable operational issue</td>
+<td>Late review, unclear checklist</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>Could create trust, payment or documentation problem</td>
+<td>Incomplete media approval</td>
+</tr>
+<tr>
+<td>High</td>
+<td>Could harm practitioner, community, site or legal posture</td>
+<td>Unapproved profile, unsafe visit</td>
+</tr>
+<tr>
+<td>Critical</td>
+<td>Requires immediate pause</td>
+<td>Sensitive data exposure, consent violation</td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Likelihood</th>
+<th>Meaning</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Rare</td>
+<td>Unlikely under current controls</td>
+</tr>
+<tr>
+<td>Possible</td>
+<td>Could occur during active pilot</td>
+</tr>
+<tr>
+<td>Likely</td>
+<td>Expected unless actively managed</td>
+</tr>
+</tbody>
+</table></div>
+<p>High or Critical severity items must have an owner, next action and review date.</p>
+<hr>
+<h2 id="stop-pivot-continue-criteria">Stop / pivot / continue criteria</h2>
+<h3 id="continue">Continue</h3>
+<p>Continue when:</p>
+<ul>
+<li>consent records are complete;</li>
+<li>stewardship review is on schedule;</li>
+<li>practitioner burden remains acceptable;</li>
+<li>funding terms match mission and capacity;</li>
+<li>no unresolved High or Critical risks are open.</li>
+</ul>
+<h3 id="pivot">Pivot</h3>
+<p>Pivot when:</p>
+<ul>
+<li>a sub-region lacks consent-based access;</li>
+<li>compensation assumptions are wrong;</li>
+<li>advisors identify a better legal path;</li>
+<li>fieldwork reveals student programming is premature;</li>
+<li>archive tool choice does not support access rules.</li>
+</ul>
+<h3 id="stop-or-pause">Stop or pause</h3>
+<p>Pause immediately when:</p>
+<ul>
+<li>a practitioner or steward withdraws consent for active material;</li>
+<li>restricted archive material is exposed;</li>
+<li>public language creates a false claim of partnership or endorsement;</li>
+<li>safety or liability terms are not ready for a planned visit;</li>
+<li>the founder cannot maintain governance, consent and archive records.</li>
+</ul>
+<hr>
+<h2 id="monitoring-cadence">Monitoring cadence</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Cadence</th>
+<th>Review</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Weekly during fieldwork</td>
+<td>Open risks, consent gaps, practitioner burden</td>
+</tr>
+<tr>
+<td>Monthly</td>
+<td>Full risk register review</td>
+</tr>
+<tr>
+<td>Quarterly</td>
+<td>Archive access and public language audit</td>
+</tr>
+<tr>
+<td>Before publication</td>
+<td>Consent, steward review and claim verification</td>
+</tr>
+<tr>
+<td>Before funding acceptance</td>
+<td>Mission, deliverables and reporting obligations</td>
+</tr>
+<tr>
+<td>Before app work</td>
+<td>Governance readiness and technology gate</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="incident-response">Incident response</h2>
+<ol>
+<li>Restrict affected material or activity immediately.</li>
+<li>Record the incident in the risk register.</li>
+<li>Notify the affected practitioner, steward or advisor when appropriate.</li>
+<li>Identify whether the issue is consent, archive, language, safety or governance.</li>
+<li>Decide repair, restriction, deletion, apology, compensation or pause.</li>
+<li>Log the outcome and next review date.</li>
+</ol>
+<hr>
+<h2 id="required-artifacts">Required artifacts</h2>
+<p>Risk monitoring should connect to:</p>
+<ul>
+<li><code>data/studium_risk_register.csv</code>;</li>
+<li><code>data/studium_consent_schema.csv</code>;</li>
+<li><code>data/studium_archive_schema.csv</code>;</li>
+<li>governance decision log;</li>
+<li>archive access log;</li>
+<li>public language review notes.</li>
+</ul>
+    </article>
+  </main>
+
+  <footer class="wrap">
+    <p>Studium does not currently operate an apprenticeship program, steward network or institutional partnership structure.</p>
+    <nav class="footer-nav" aria-label="Repository navigation">
+      <a href="index.html">Homepage</a>
+      <a href="00-overview.html">Document hierarchy</a>
+      <a href="https://github.com/brauliosotomayor/studium">GitHub repository</a>
+    </nav>
+  </footer>
+</body>
+</html>

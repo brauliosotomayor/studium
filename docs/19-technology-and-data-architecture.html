@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technology and Data Architecture — Studium</title>
+  <meta name="description" content="Technology and Data Architecture in the Studium public documentation hierarchy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="studium-site.css">
+</head>
+<body>
+  <header class="site-header wrap">
+    <p class="eyebrow">Student · Master · Steward</p>
+    <h1><a href="index.html">Studium</a></h1>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="00-overview.html">Overview</a>
+      <a href="20-public-language-and-positioning-guide.html">Public Language</a>
+      <a href="11-governance-blueprint.html">Governance</a>
+      <a href="12-stewardship-operating-model.html">Stewardship</a>
+      <a href="13-consent-and-documentation-ethics.html">Consent</a>
+      <a href="16-operational-pilot-plan.html">Pilot Plan</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="document-hero wrap">
+      <p class="breadcrumb"><a href="index.html">Home</a> / <a href="00-overview.html">Documentation</a> / 19-technology-and-data-architecture</p>
+      <h2 class="document-title">Technology and Data Architecture</h2>
+      <div class="badge-row">
+        <span class="status-badge canonical">Canonical Operational Document</span>
+      </div>
+      <aside class="document-meta" aria-label="Document metadata">
+        <dl>
+          <dt>Status</dt>
+          <dd>Internal architecture constraints before implementation</dd>
+          <dt>Audience</dt>
+          <dd>Internal archive and technology review</dd>
+          <dt>Repository path</dt>
+          <dd><code>docs/19-technology-and-data-architecture.md</code></dd>
+          <dt>Last reviewed</dt>
+          <dd>2026-05-17</dd>
+        </dl>
+      </aside>
+    </section>
+
+    <article class="document-body">
+<p><strong>Version:</strong> Phase III · 2026-05-17 <strong>Status:</strong> Internal architecture constraints before implementation</p>
+<hr>
+<h2 id="purpose">Purpose</h2>
+<p>This document defines the technology posture for Studium: data and tools must support consent, stewardship and archive governance. Technology must not create scale pressure before governance exists.</p>
+<p>Do not build an app, marketplace, public map or booking system before governance, consent and archive architecture are approved.</p>
+<hr>
+<h2 id="architecture-principle">Architecture principle</h2>
+<p>The archive is a governed record system, not a growth product. Access rules, consent records and stewardship decisions are first-class data.</p>
+<hr>
+<h2 id="mukurtu-first-archive-logic">Mukurtu-first archive logic</h2>
+<p>Studium should evaluate Mukurtu or a Mukurtu-aligned approach before inventing a custom archive because it supports:</p>
+<ul>
+<li>community-controlled access protocols;</li>
+<li>cultural metadata;</li>
+<li>restricted sharing;</li>
+<li>differential access by community or role;</li>
+<li>archive governance patterns beyond simple public/private toggles.</li>
+</ul>
+<p>The decision is not &quot;use Mukurtu at all costs.&quot; The decision is that any tool must support equivalent consent and stewardship controls before storing sensitive records.</p>
+<hr>
+<h2 id="data-objects">Data objects</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Object</th>
+<th>Purpose</th>
+<th>Public by default</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Practitioner record</td>
+<td>Relationship, status, craft, consent and compensation notes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Steward record</td>
+<td>Review role and authority</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Consent record</td>
+<td>Approved uses, restrictions, withdrawal terms</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Archive item</td>
+<td>Interview, photo, field note, transcript or metadata</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Place record</td>
+<td>Region, sub-region, site sensitivity and location precision</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Student application</td>
+<td>Intent, screening, conduct agreement</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Partner target</td>
+<td>Outreach status and relationship notes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Risk item</td>
+<td>Failure pattern, owner, mitigation and review</td>
+<td>No</td>
+</tr>
+</tbody>
+</table></div>
+<p>Public display should be generated only from approved fields, never directly from raw records.</p>
+<hr>
+<h2 id="metadata-schema">Metadata schema</h2>
+<p>Minimum archive metadata:</p>
+<ul>
+<li>archive ID;</li>
+<li>title or working label;</li>
+<li>material type;</li>
+<li>practitioner or steward link;</li>
+<li>place precision level;</li>
+<li>sensitivity;</li>
+<li>consent ID;</li>
+<li>access tier;</li>
+<li>allowed uses;</li>
+<li>prohibited uses;</li>
+<li>review date;</li>
+<li>withdrawal terms;</li>
+<li>steward decision ID;</li>
+<li>storage location;</li>
+<li>public summary approval status.</li>
+</ul>
+<hr>
+<h2 id="access-tiers">Access tiers</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Tier</th>
+<th>Description</th>
+<th>Technical requirement</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Public</td>
+<td>Approved for public display</td>
+<td>Separate reviewed public copy</td>
+</tr>
+<tr>
+<td>Internal restricted</td>
+<td>Studium team only</td>
+<td>Role-based access and audit log</td>
+</tr>
+<tr>
+<td>Practitioner-only</td>
+<td>Returned to or controlled by practitioner</td>
+<td>Export and deletion path</td>
+</tr>
+<tr>
+<td>Community / steward</td>
+<td>Shared with defined reviewers</td>
+<td>Named access group</td>
+</tr>
+<tr>
+<td>Sealed</td>
+<td>Stored but not accessed without re-approval</td>
+<td>Access disabled except archive steward</td>
+</tr>
+<tr>
+<td>Withdrawn</td>
+<td>Removed from active use</td>
+<td>Tombstone record without sensitive content</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="data-sovereignty-rules">Data sovereignty rules</h2>
+<ol>
+<li>Consent controls use, not possession.</li>
+<li>Raw documentation remains restricted unless explicitly approved.</li>
+<li>Exact site data is hidden unless site permission exists.</li>
+<li>Community-controlled knowledge requires community-level review.</li>
+<li>Withdrawal and restriction must be technically possible.</li>
+<li>Public summaries must be separate from raw archive material.</li>
+<li>No archive material may be used for AI training, dataset licensing or automated enrichment without explicit future governance approval.</li>
+</ol>
+<hr>
+<h2 id="prohibited-technology-before-governance-exists">Prohibited technology before governance exists</h2>
+<p>Do not build:</p>
+<ul>
+<li>public marketplace;</li>
+<li>instant booking;</li>
+<li>public global atlas;</li>
+<li>recommendation or ranking system;</li>
+<li>creator or influencer publishing flow;</li>
+<li>student self-service access to sensitive records;</li>
+<li>AI feature using practitioner documentation;</li>
+<li>automated scraping or enrichment pipeline;</li>
+<li>public map with exact private locations.</li>
+</ul>
+<hr>
+<h2 id="allowed-phase-iii-tooling">Allowed Phase III tooling</h2>
+<p>Allowed tools are administrative and low-scale:</p>
+<ul>
+<li>CSV registers for planning;</li>
+<li>private consent tracker;</li>
+<li>private archive inventory;</li>
+<li>restricted file storage;</li>
+<li>decision log;</li>
+<li>public static pages only for pilot-stage language;</li>
+<li>internal map notes without exact sensitive locations.</li>
+</ul>
+<hr>
+<h2 id="technology-readiness-gate">Technology readiness gate</h2>
+<p>No app or marketplace planning should proceed until:</p>
+<ul>
+<li>governance decision rights are documented;</li>
+<li>consent workflow is approved;</li>
+<li>archive schema and access tiers are tested;</li>
+<li>first three practitioner relationships have consent records;</li>
+<li>compensation and participation terms are drafted;</li>
+<li>legal and safety review exists for student activity;</li>
+<li>advisory review approves the next product scope.</li>
+</ul>
+<hr>
+<h2 id="data-minimization">Data minimization</h2>
+<p>Collect the least sensitive useful data:</p>
+<ul>
+<li>use sub-region instead of exact address by default;</li>
+<li>use status categories instead of private notes in shared files;</li>
+<li>store contact details outside public repository files;</li>
+<li>separate consent records from public summaries;</li>
+<li>do not store signatures or identity documents in CSVs;</li>
+<li>delete or restrict raw material if its purpose is unclear.</li>
+</ul>
+    </article>
+  </main>
+
+  <footer class="wrap">
+    <p>Studium does not currently operate an apprenticeship program, steward network or institutional partnership structure.</p>
+    <nav class="footer-nav" aria-label="Repository navigation">
+      <a href="index.html">Homepage</a>
+      <a href="00-overview.html">Document hierarchy</a>
+      <a href="https://github.com/brauliosotomayor/studium">GitHub repository</a>
+    </nav>
+  </footer>
+</body>
+</html>
